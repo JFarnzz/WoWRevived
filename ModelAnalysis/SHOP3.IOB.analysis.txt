@@ -1,0 +1,166 @@
+﻿=== IOB File Analysis: SHOP3.IOB ===
+File Size: 8832 bytes (2280h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 1C 00 00 00 17 00  00 00 00 00 00 00 3E 00  |..............>.|
+00000010  00 00 56 00 00 00 2C 00  00 00 A8 00 00 00 ED 00  |..V...,.........|
+00000020  00 00 FE FF FC FF 01 00  FE FF 02 00 FE FF FE FF  |................|
+00000030  02 00 01 00 FE FF FC FF  FE FF 02 00 FC FF 01 00  |................|
+00000040  02 00 02 00 FE FF 02 00  02 00 01 00 02 00 FC FF  |................|
+00000050  FE FF FE FF 02 00 01 00  FE FF 03 00 00 00 FE FF  |................|
+00000060  02 00 FE FF 02 00 02 00  01 00 02 00 03 00 00 00  |................|
+00000070  02 00 02 00 FE FF FF FF  03 00 00 00 FF FF 04 00  |................|
+00000080  00 00 FF FF 04 00 00 00  FF FF 03 00 00 00 FF FF  |................|
+00000090  03 00 00 00 FF FF 04 00  00 00 FF FF 04 00 00 00  |................|
+000000A0  FF FF 03 00 00 00 FE FF  FE FF 01 00 FE FF FE FF  |................|
+000000B0  02 00 FE FF FE FF 01 00  02 00 FE FF 02 00 02 00  |................|
+000000C0  FE FF 01 00 02 00 FE FF  01 00 00 00 81 00 00 81  |................|
+000000D0  00 9C 4D 00 9C 4D 7E 00  00 7F 00 00 7F 00 00 7F  |..M..M~.........|
+000000E0  00 00 7F 00 00 7F 00 00  00 81 00 00 81 00 00 00  |................|
+000000F0  81 00 00 81 00 9C B3 7E  00 00 7F 00 00 00 9C B3  |.......~........|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 1835011 (0x001C0003)
+First 4 bytes (int32): 1835011
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 1507328 (0x00170000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0312: "MPQQQPT" (length: 7)
+Offset 0x0322: "QQQQQQ" (length: 6)
+Offset 0x0331: "PQQQQQQ" (length: 7)
+Offset 0x0342: "PQQQQQPQ" (length: 8)
+Offset 0x0356: "PQPQQPQ" (length: 7)
+Offset 0x0422: "/000" (length: 4)
+Offset 0x045A: "Gnnn" (length: 4)
+Offset 0x0483: "JM@Jnn" (length: 6)
+Offset 0x049A: "JJnn" (length: 4)
+Offset 0x04AE: "JGnnn" (length: 5)
+Offset 0x04C2: "GGMnn" (length: 5)
+Offset 0x0671: "0..." (length: 4)
+Offset 0x0679: "0...." (length: 5)
+Offset 0x0681: "00...." (length: 6)
+Offset 0x068A: "0..0." (length: 5)
+Offset 0x0694: "...." (length: 4)
+Offset 0x0790: "?....0.." (length: 8)
+Offset 0x079E: "@Jnnn" (length: 5)
+Offset 0x07A5: "00..0" (length: 5)
+Offset 0x07B3: "GJnnn" (length: 5)
+Offset 0x07BA: ".000" (length: 4)
+Offset 0x07DF: "GGMnn" (length: 5)
+Offset 0x07E6: "nnnJJJ" (length: 6)
+Offset 0x07F8: "nnnnnGM" (length: 7)
+Offset 0x080E: "nnnM" (length: 4)
+Offset 0x0839: "JnnM" (length: 4)
+Offset 0x0851: "MnKG" (length: 4)
+Offset 0x0866: "Jnnnin" (length: 6)
+Offset 0x087E: "@nin" (length: 4)
+Offset 0x098D: "QQQPT" (length: 5)
+Offset 0x0997: "QQQQQQ" (length: 6)
+Offset 0x09A0: "QQQQQPQ" (length: 7)
+Offset 0x09AA: "PQPQQPQ" (length: 7)
+Offset 0x0AD3: "Gnnn" (length: 4)
+Offset 0x0AEB: "JM@Jnn" (length: 6)
+Offset 0x0AFC: "JJnn" (length: 4)
+Offset 0x0B0C: "JGnnn" (length: 5)
+Offset 0x0B1E: "GGMnn" (length: 5)
+Offset 0x0B48: "@Mnn" (length: 4)
+Offset 0x0B5D: "J@Jnnn" (length: 6)
+Offset 0x0B75: "GJnnn" (length: 5)
+Offset 0x0BA9: "GGMnn" (length: 5)
+Offset 0x0D73: ".0...." (length: 6)
+Offset 0x0D7F: "0......" (length: 7)
+Offset 0x0D8C: "0..0...." (length: 8)
+Offset 0x0D9A: "00.0." (length: 5)
+Offset 0x0DA0: "...." (length: 4)
+Offset 0x0DAB: "...." (length: 4)
+Offset 0x0DB2: "...0." (length: 5)
+Offset 0x0E21: "TTTT" (length: 4)
+Offset 0x0EFA: "innG" (length: 4)
+Offset 0x0F0A: "niM@" (length: 4)
+Offset 0x0F19: "nnJG" (length: 4)
+Offset 0x0F26: "MnnJM" (length: 5)
+Offset 0x0F3F: "nnOJMMP" (length: 7)
+Offset 0x0F4B: "ninJJJP" (length: 7)
+Offset 0x0F56: "nnM@MO" (length: 6)
+Offset 0x0F69: "nMGMA" (length: 5)
+Offset 0x0F72: "MMMJ" (length: 4)
+Offset 0x101C: "Jnnn" (length: 4)
+Offset 0x105B: "0..0" (length: 4)
+Offset 0x1064: ".0..." (length: 5)
+Offset 0x106E: "0..0" (length: 4)
+Offset 0x1103: "QQQQ" (length: 4)
+Offset 0x110B: "QQPQ" (length: 4)
+Offset 0x1127: "PQQQ" (length: 4)
+Offset 0x1197: "0..0" (length: 4)
+Offset 0x119E: ".0..." (length: 5)
+Offset 0x11A9: "0..0" (length: 4)
+Offset 0x11B5: ".0...." (length: 6)
+Offset 0x11C3: "0......" (length: 7)
+Offset 0x11D4: "0..0...." (length: 8)
+Offset 0x11E6: "00.0." (length: 5)
+Offset 0x11EC: "...." (length: 4)
+Offset 0x11FB: "....." (length: 5)
+Offset 0x1203: "...0." (length: 5)
+Offset 0x1211: ".0..." (length: 5)
+Offset 0x122A: "0...0" (length: 5)
+Offset 0x1245: "0...." (length: 5)
+Offset 0x1261: "00...." (length: 6)
+Offset 0x1280: ".0..0." (length: 6)
+Offset 0x1288: "...." (length: 4)
+Offset 0x1295: "TTTT" (length: 4)
+Offset 0x12A2: "...." (length: 4)
+Offset 0x12A9: "..0." (length: 4)
+Offset 0x15F2: "hnJ@IK" (length: 6)
+Offset 0x15FA: "nJJ@" (length: 4)
+Offset 0x165D: "Rn@nn" (length: 5)
+Offset 0x16CC: "S@Km" (length: 4)
+Offset 0x17FC: "IiNe" (length: 4)
+Offset 0x18D4: "#/000" (length: 5)
+Offset 0x192B: "QPQTT" (length: 5)
+Offset 0x19EB: "?....0.." (length: 8)
+Offset 0x19FC: "00..0" (length: 5)
+Offset 0x1A0B: ".000" (length: 4)
+Offset 0x1A87: "Rn@nn" (length: 5)
+Offset 0x1ACA: "S@Km" (length: 4)
+Offset 0x1B9C: "IiNe" (length: 4)
+Offset 0x1BD3: "AmnO" (length: 4)
+Offset 0x1CB1: "]]]y" (length: 4)
+Offset 0x1DBB: "nnnJ" (length: 4)
+Offset 0x1DC4: "nnMJM" (length: 5)
+Offset 0x1DCD: "nnMJJ" (length: 5)
+Offset 0x1DD7: "innGMJ" (length: 6)
+Offset 0x1DE3: "niM@JO" (length: 6)
+Offset 0x1DEF: "nnJG" (length: 4)
+Offset 0x1DFC: "MnnJMJ" (length: 6)
+Offset 0x1E19: "nnOJMMPS" (length: 8)
+Offset 0x1E2A: "ninJJJP" (length: 7)
+Offset 0x1E3B: "nnM@MO" (length: 6)
+Offset 0x1E60: "nnMGMA" (length: 6)
+Offset 0x1E75: "nnMMMJ" (length: 6)
+Offset 0x1E9E: "nnnJJJQS" (length: 8)
+Offset 0x1EB3: "nnnGM" (length: 5)
+Offset 0x1F8A: "nnn@J" (length: 5)
+Offset 0x1FBB: "nMnA" (length: 4)
+Offset 0x2010: "nJAA" (length: 4)
+Offset 0x2016: "AmfO" (length: 4)
+Offset 0x2035: "nJKnOV" (length: 6)
+
+=== END OF ANALYSIS ===

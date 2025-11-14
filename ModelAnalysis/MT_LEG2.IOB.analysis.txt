@@ -1,0 +1,103 @@
+﻿=== IOB File Analysis: MT_LEG2.IOB ===
+File Size: 2013 bytes (7DDh)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 1E 00 00 00 1E 00  00 00 01 00 00 00 39 00  |..............9.|
+00000010  00 00 2B 00 00 00 3F 00  00 00 B4 00 00 00 0E 01  |..+...?.........|
+00000020  00 00 0A 00 F2 FF 14 00  0A 00 F1 FF 12 00 0A 00  |................|
+00000030  EE FF 12 00 0A 00 EE FF  15 00 0A 00 F1 FF 15 00  |................|
+00000040  15 00 F4 FF 14 00 15 00  F3 FF 12 00 15 00 F0 FF  |................|
+00000050  12 00 15 00 F0 FF 15 00  15 00 F3 FF 15 00 1B 00  |................|
+00000060  F3 FF 14 00 1B 00 F2 FF  12 00 1A 00 F0 FF 12 00  |................|
+00000070  1A 00 F0 FF 15 00 1B 00  F2 FF 15 00 23 00 F1 FF  |............#...|
+00000080  14 00 23 00 F0 FF 12 00  22 00 EE FF 12 00 22 00  |..#.....".....".|
+00000090  EE FF 15 00 23 00 F0 FF  15 00 2C 00 EC FF 13 00  |....#.....,.....|
+000000A0  29 00 EB FF 0F 00 24 00  E9 FF 11 00 24 00 E9 FF  |).....$.....$...|
+000000B0  16 00 29 00 EB FF 18 00  37 00 E3 FF 14 00 30 00  |..).....7.....0.|
+000000C0  E3 FF 0B 00 25 00 E3 FF  0E 00 25 00 E3 FF 1A 00  |....%.....%.....|
+000000D0  30 00 E3 FF 1D 00 17 84  00 13 9B 49 00 00 00 F9  |0..........I....|
+000000E0  27 88 01 F7 82 01 82 00  0A 9A 4A 00 00 00 FC 27  |'.........J....'|
+000000F0  88 06 DA 88 E6 84 00 F2  9A 4A 00 00 00 05 27 88  |.........J....'.|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 1966083 (0x001E0003)
+First 4 bytes (int32): 1966083
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 1966080 (0x001E0000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0359: "]][[Z" (length: 5)
+Offset 0x0360: "]][[Z" (length: 5)
+Offset 0x0367: "[ZZY" (length: 4)
+Offset 0x0376: "]][[ZY" (length: 6)
+Offset 0x037E: "]][[ZZ[YY" (length: 9)
+Offset 0x0389: "]][[Z[YY" (length: 8)
+Offset 0x0393: "]][Z" (length: 4)
+Offset 0x039C: "][[[ZY" (length: 6)
+Offset 0x03A4: "][Z[Z" (length: 5)
+Offset 0x0469: "[]]]" (length: 4)
+Offset 0x046F: "[[[]]" (length: 5)
+Offset 0x0476: "[[[]]]]" (length: 7)
+Offset 0x0480: "][[]]" (length: 5)
+Offset 0x0499: "]]][" (length: 4)
+Offset 0x04C6: "ZZ[[" (length: 4)
+Offset 0x04CC: "ZZZZ[[" (length: 6)
+Offset 0x04E9: "][]]" (length: 4)
+Offset 0x0561: "Z[]]" (length: 4)
+Offset 0x0567: "Z[[]" (length: 4)
+Offset 0x056D: "ZZ[[[" (length: 5)
+Offset 0x0574: "ZZZ[[[]" (length: 7)
+Offset 0x057D: "YZZZ[[]" (length: 7)
+Offset 0x0586: "WYZZZZ[]]" (length: 9)
+Offset 0x0591: "VYZZY" (length: 5)
+Offset 0x0646: "YZ[]" (length: 4)
+Offset 0x064C: "YWYZ[]" (length: 6)
+Offset 0x0654: "WWWYZ[]" (length: 7)
+Offset 0x065D: "VVVWYZ[]" (length: 8)
+Offset 0x0667: "VIIVWYZ[" (length: 8)
+Offset 0x0671: "IIIIVWZ]" (length: 8)
+Offset 0x067C: "IIIJJY" (length: 6)
+Offset 0x068F: "[YZZZ[" (length: 6)
+Offset 0x069A: "[IJIIYYZZ[" (length: 10)
+Offset 0x06A7: "[VJJJJIVYYZZ[" (length: 13)
+Offset 0x06B6: "[[YIJLJJIWYYZZ[" (length: 15)
+Offset 0x06C7: "YYZZYILLJJIW" (length: 12)
+Offset 0x06D5: "IIWZZYJLL" (length: 9)
+Offset 0x06E0: "MMLWYZ" (length: 6)
+Offset 0x071A: "ZYYY" (length: 4)
+Offset 0x0720: "IWYYYY" (length: 6)
+Offset 0x0728: "JVYYYY" (length: 6)
+Offset 0x0730: "JIWYY" (length: 5)
+Offset 0x0737: "LIVWW" (length: 5)
+Offset 0x073E: "LIIVW" (length: 5)
+Offset 0x0745: "MJIIV" (length: 5)
+Offset 0x074C: "LJII" (length: 4)
+Offset 0x0780: "[ILL" (length: 4)
+Offset 0x0786: "d]ZMM" (length: 5)
+Offset 0x078E: "[WYYM" (length: 5)
+Offset 0x0797: "YILJYM" (length: 6)
+Offset 0x07A2: "VJMMMW" (length: 6)
+Offset 0x07AB: "dVJLLLJ" (length: 7)
+Offset 0x07B5: "YVIIIV" (length: 6)
+Offset 0x07BE: "[VVVW" (length: 5)
+Offset 0x07C6: "dVVWY" (length: 5)
+
+=== END OF ANALYSIS ===

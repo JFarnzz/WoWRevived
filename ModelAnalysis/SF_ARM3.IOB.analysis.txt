@@ -1,0 +1,67 @@
+﻿=== IOB File Analysis: SF_ARM3.IOB ===
+File Size: 3185 bytes (C71h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 38 00 00 00 2E 00  00 00 01 00 00 00 2B 00  |..8...........+.|
+00000010  00 00 35 00 00 00 22 00  00 00 50 01 00 00 F8 01  |..5..."...P.....|
+00000020  00 00 EF FF FA FF F5 FF  EF FF FA FF F5 FF EE FF  |................|
+00000030  FE FF F4 FF EE FF FE FF  F5 FF ED FF 02 00 F4 FF  |................|
+00000040  ED FF 02 00 F4 FF ED FF  06 00 F7 FF EE FF 07 00  |................|
+00000050  F8 FF F0 FF FA FF F6 FF  EF FF FE FF F6 FF ED FF  |................|
+00000060  02 00 F5 FF EF FF 07 00  F8 FF F0 FF FA FF F7 FF  |................|
+00000070  F0 FF FE FF F6 FF EE FF  02 00 F6 FF EE FF 06 00  |................|
+00000080  F8 FF EF FF FA FF F4 FF  EE FF FE FF F3 FF ED FF  |................|
+00000090  02 00 F3 FF EE FF 07 00  F7 FF F4 FF 0B 00 FA FF  |................|
+000000A0  F4 FF 0B 00 FB FF F0 FF  07 00 F8 FF EF FF 02 00  |................|
+000000B0  F5 FF F1 FF FE FF F6 FF  F1 FF FA FF F6 FF F0 FF  |................|
+000000C0  F9 FF F6 FF F0 FF F9 FF  F5 FF F0 FF FA FF F3 FF  |................|
+000000D0  F0 FF FE FF F2 FF EE FF  02 00 F2 FF EF FF 07 00  |................|
+000000E0  F6 FF F5 FF 0B 00 F9 FF  F5 FF 0B 00 FA FF F1 FF  |................|
+000000F0  07 00 F8 FF F0 FF 02 00  F4 FF F2 FF FE FF F5 FF  |................|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 3670019 (0x00380003)
+First 4 bytes (int32): 3670019
+First 4 bytes (ASCII): "??8?"
+Bytes 4-7 (uint32): 3014656 (0x002E0000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0646: "ZZYV" (length: 4)
+Offset 0x064C: "ZZYW" (length: 4)
+Offset 0x071F: "VILM" (length: 4)
+Offset 0x0854: "VIVWZ" (length: 5)
+Offset 0x08BE: "  !!" (length: 4)
+Offset 0x08C4: " !!!" (length: 4)
+Offset 0x08CA: "  !!!" (length: 5)
+Offset 0x08D1: "!   !" (length: 5)
+Offset 0x0A9B: "LJVZ" (length: 4)
+Offset 0x0AA1: "JIZ]" (length: 4)
+Offset 0x0B1E: "IJLM" (length: 4)
+Offset 0x0B44: "IWYZ" (length: 4)
+Offset 0x0B4A: "JVYZ" (length: 4)
+Offset 0x0B50: "LJVY" (length: 4)
+Offset 0x0B56: "LLJVY" (length: 5)
+Offset 0x0B5D: "LLJVY" (length: 5)
+Offset 0x0B64: "MLLJWZ" (length: 6)
+Offset 0x0B6C: "MMLJIY" (length: 6)
+Offset 0x0B74: "MLJJW[" (length: 6)
+Offset 0x0B91: "][]]" (length: 4)
+Offset 0x0B97: "Z[[][Z" (length: 6)
+Offset 0x0B9F: "Z[[[" (length: 4)
+Offset 0x0BA5: "YZZ[" (length: 4)
+Offset 0x0BAB: "YYYZ" (length: 4)
+Offset 0x0C13: "WJLL" (length: 4)
+
+=== END OF ANALYSIS ===

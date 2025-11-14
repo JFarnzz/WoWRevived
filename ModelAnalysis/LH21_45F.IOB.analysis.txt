@@ -1,0 +1,104 @@
+﻿=== IOB File Analysis: LH21_45F.IOB ===
+File Size: 2945 bytes (B81h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 08 00 00 00 06 00  00 00 01 00 00 00 25 00  |..............%.|
+00000010  00 00 4D 00 00 00 25 00  00 00 30 00 00 00 48 00  |..M...%...0...H.|
+00000020  00 00 00 00 FD FF 01 00  FF FF 01 00 00 00 00 00  |................|
+00000030  01 00 01 00 FF FF FD FF  00 00 01 00 FD FF 00 00  |................|
+00000040  00 00 01 00 FF FF 01 00  01 00 00 00 00 00 FD FF  |................|
+00000050  FF FF D8 00 88 28 8F D8  24 CD 93 59 00 A7 A7 00  |.....(..$..Y....|
+00000060  A7 00 81 00 C1 A7 C1 00  00 00 A4 0E 0D 01 00 00  |................|
+00000070  00 00 05 00 01 00 06 00  B4 00 00 00 24 0E 01 00  |............$...|
+00000080  00 00 0D 00 06 00 01 00  02 00 C4 01 00 00 92 31  |...............1|
+00000090  0D 00 00 00 0E 00 01 00  03 00 02 00 D4 02 00 00  |................|
+000000A0  92 3F 31 00 12 00 0D 00  06 00 00 00 04 00 DE 04  |.?1.............|
+000000B0  00 00 12 31 24 00 00 00  1B 00 02 00 03 00 00 00  |...1$...........|
+000000C0  2A 07 00 00 12 3F 0E 00  12 00 0D 00 06 00 02 00  |*....?..........|
+000000D0  00 00 39 09 00 00 12 80  BE 10 03 00 BE 1F 0F 05  |..9.............|
+000000E0  00 BF C1 B1 4F 0E 08 BE  C1 4F B3 4F 4F E2 E2 0C  |....O....O.OO...|
+000000F0  0B 00 1F B2 B3 4F 4F E2  E2 E2 E2 6A 0B 0D BF B2  |.....OO....j....|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 524291 (0x00080003)
+First 4 bytes (int32): 524291
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 393216 (0x00060000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0156: "jjjjjjj" (length: 7)
+Offset 0x0167: "OOOO" (length: 4)
+Offset 0x0171: "jjjjj" (length: 5)
+Offset 0x01C9: "OOOO" (length: 4)
+Offset 0x022B: "OOOO" (length: 4)
+Offset 0x0236: "jjjjjjj" (length: 7)
+Offset 0x0297: "OOOO" (length: 4)
+Offset 0x02B7: "Ojjj" (length: 4)
+Offset 0x0326: "OMJJ" (length: 4)
+Offset 0x0359: "OOOO" (length: 4)
+Offset 0x03A0: "OOOOOjj" (length: 7)
+Offset 0x03C9: "OOOP" (length: 4)
+Offset 0x03E1: "OjjOO" (length: 5)
+Offset 0x04CA: "OOOO" (length: 4)
+Offset 0x0597: "MMNOO" (length: 5)
+Offset 0x0613: "'(%%%" (length: 5)
+Offset 0x061F: "('%%%%" (length: 6)
+Offset 0x062B: "'%%%%%%" (length: 7)
+Offset 0x0639: "%%%%%%%" (length: 7)
+Offset 0x0645: "%%%%%%%%'" (length: 9)
+Offset 0x0651: "'%%%%%%%%'*" (length: 11)
+Offset 0x065E: "%%%%%%%%%((" (length: 11)
+Offset 0x066C: "%%%%%%%%'((" (length: 11)
+Offset 0x067B: "%%%%%%%%(0" (length: 10)
+Offset 0x068A: "%%%%%%(*" (length: 8)
+Offset 0x0699: "%%%%%%(0(" (length: 9)
+Offset 0x06A9: "%%%%'.(" (length: 7)
+Offset 0x06B9: "%%%(*" (length: 5)
+Offset 0x0703: "(++*" (length: 4)
+Offset 0x070F: ":1+0" (length: 4)
+Offset 0x071A: "(00(" (length: 4)
+Offset 0x077E: "OOOO" (length: 4)
+Offset 0x0836: "OOOO" (length: 4)
+Offset 0x0845: "jOOOOO" (length: 6)
+Offset 0x087C: "jjOOOOO" (length: 7)
+Offset 0x0892: "OOOO" (length: 4)
+Offset 0x08A7: "OOOO" (length: 4)
+Offset 0x08CB: "jjjj" (length: 4)
+Offset 0x08DF: "jjjjj" (length: 5)
+Offset 0x08F2: "jjjjjjj" (length: 7)
+Offset 0x0907: "jjjj" (length: 4)
+Offset 0x0982: "JJJO" (length: 4)
+Offset 0x09CF: "GGG@" (length: 4)
+Offset 0x0A51: "SPTS" (length: 4)
+Offset 0x0A7D: "jjjjj" (length: 5)
+Offset 0x0A95: "jjWW" (length: 4)
+Offset 0x0AA1: "jjjj" (length: 4)
+Offset 0x0AD6: "jjjj" (length: 4)
+Offset 0x0AE0: "jjjjOO" (length: 6)
+Offset 0x0AFE: "jjNOS" (length: 5)
+Offset 0x0B33: ".(%%%" (length: 5)
+Offset 0x0B3A: ".(%%" (length: 4)
+Offset 0x0B40: ".'%%" (length: 4)
+Offset 0x0B46: "(%%%" (length: 4)
+Offset 0x0B4C: "(%%%" (length: 4)
+
+=== END OF ANALYSIS ===

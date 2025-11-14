@@ -1,0 +1,102 @@
+﻿=== IOB File Analysis: TREE16.IOB ===
+File Size: 1309 bytes (51Dh)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 04 00 00 00 02 00  00 00 01 00 00 00 27 00  |..............'.|
+00000010  00 00 23 00 00 00 2D 00  00 00 18 00 00 00 24 00  |..#...-.......$.|
+00000020  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+00000030  00 00 00 00 00 00 00 00  00 00 96 EC BF 6A EC BF  |.............j..|
+00000040  00 DA 87 00 DA 87 19 2C  11 01 FA FF FB FF 03 00  |.......,........|
+00000050  01 00 02 00 48 00 00 00  99 2C 11 01 13 00 FB FF  |....H....,......|
+00000060  03 00 02 00 00 00 B4 02  00 00 19 80 00 17 82 00  |................|
+00000070  16 83 00 14 85 00 13 86  00 11 88 00 10 89 00 0E  |................|
+00000080  0B 00 54 75 00 75 00 00  00 00 00 54 0D 0C 00 00  |..Tu.u.....T....|
+00000090  75 75 00 00 75 00 75 00  00 00 0B 0E 00 00 00 00  |uu..u.u.........|
+000000A0  54 75 75 92 54 54 58 59  59 00 0A 0F 00 00 00 00  |Tuu.TTXYY.......|
+000000B0  00 00 54 54 54 54 58 59  59 55 64 08 11 00 00 00  |..TTTTXYYUd.....|
+000000C0  00 00 00 00 00 00 54 54  54 54 59 59 59 64 07 12  |......TTTTYYYd..|
+000000D0  00 54 00 00 00 00 54 00  00 57 57 58 57 54 54 54  |.T....T..WWXWTTT|
+000000E0  57 54 06 13 00 54 54 92  92 64 00 57 54 58 58 58  |WT...TT..d.WTXXX|
+000000F0  55 57 54 54 56 92 00 05  14 00 00 00 00 00 54 64  |UWTTV.........Td|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 262147 (0x00040003)
+First 4 bytes (int32): 262147
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 131072 (0x00020000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0034: 0.000000
+Offset 0x0038: -1450710983537555009647411200.000000
+Offset 0x003C: -1.847008
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x00A4: "TTXYY" (length: 5)
+Offset 0x00B2: "TTTTXYYUd" (length: 9)
+Offset 0x00C6: "TTTTYYYd" (length: 8)
+Offset 0x00D9: "WWXWTTTWT" (length: 9)
+Offset 0x00EB: "WTXXXUWTTV" (length: 10)
+Offset 0x00FE: "TdWXTTTUUTTV" (length: 12)
+Offset 0x0116: "TWXXThYXZTTWu" (length: 13)
+Offset 0x0132: "TTTTUWTTTuTT" (length: 12)
+Offset 0x014D: "XYYhXUYTu" (length: 9)
+Offset 0x0162: "TTTThZ[hhdUTTuuuW" (length: 17)
+Offset 0x017C: "TTTZVVVVV" (length: 9)
+Offset 0x0194: "TZZZZVTVh" (length: 9)
+Offset 0x019F: "TTYTY" (length: 5)
+Offset 0x01A8: "TTTZZZVVVTThT" (length: 13)
+Offset 0x01B6: "ZZYTY" (length: 5)
+Offset 0x01BE: "XXZXTZZVTVhVVh" (length: 14)
+Offset 0x01DA: "TThTTTZ" (length: 7)
+Offset 0x01F0: "TTVV[Th" (length: 7)
+Offset 0x0204: "T[[[[ZT" (length: 7)
+Offset 0x0215: "ZZZZT[ZVVh" (length: 10)
+Offset 0x0229: "TTZVVZZZZZZ" (length: 11)
+Offset 0x023A: "TTVVZTZTZZV" (length: 11)
+Offset 0x0249: "ZVTTVZZVTh" (length: 10)
+Offset 0x0259: "ZTTTZZTTT" (length: 9)
+Offset 0x0268: "TTZTTTTTTZZ" (length: 11)
+Offset 0x02F0: "TTVZT" (length: 5)
+Offset 0x02FA: "TTZZ[T" (length: 6)
+Offset 0x0306: "ZXZZ[[" (length: 6)
+Offset 0x0313: "dZZ[[" (length: 5)
+Offset 0x033D: "TTVTT" (length: 5)
+Offset 0x034F: "TT[[T" (length: 5)
+Offset 0x0359: "WUTTT" (length: 5)
+Offset 0x0361: "TThT" (length: 4)
+Offset 0x036E: "TXXhTT" (length: 6)
+Offset 0x0377: "YTYT" (length: 4)
+Offset 0x0382: "WUVYUTTT[[[[[[Y" (length: 15)
+Offset 0x039A: "WWVWZXh[[[hYhTYTTT" (length: 18)
+Offset 0x03B3: "TXXWXhYY[[[VVVTYTh" (length: 18)
+Offset 0x03CE: "uXYdZZVVVVVVYY[[T[" (length: 18)
+Offset 0x03E8: "XTYZVVTVV[VVV[[Y[Y" (length: 18)
+Offset 0x0401: "TYZZVVTTVT[V[" (length: 13)
+Offset 0x041E: "TThT[V[" (length: 7)
+Offset 0x0433: "TVVVTVT[[[" (length: 10)
+Offset 0x0447: "YhhTTVTTT[[" (length: 11)
+Offset 0x045B: "hYYYhhhV[TT[" (length: 12)
+Offset 0x046F: "VVY[VV[[[[[[" (length: 12)
+Offset 0x0482: "YY[[[[[Y[T[" (length: 11)
+Offset 0x0494: "ZVV[[[[[" (length: 8)
+Offset 0x04A5: "VhZTZZZT" (length: 8)
+Offset 0x04B5: "VZZVTZVTZ" (length: 9)
+Offset 0x04C4: "ZVZT" (length: 4)
+Offset 0x04D2: "ZZVZ" (length: 4)
+
+=== END OF ANALYSIS ===

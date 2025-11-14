@@ -1,0 +1,105 @@
+﻿=== IOB File Analysis: LH1_60F.IOB ===
+File Size: 7007 bytes (1B5Fh)
+
+=== HEADER (First 256 bytes) ===
+00000000  46 46 55 48 A1 23 00 00  4F 17 00 00 54 BA 00 00  |FFUH.#..O...T...|
+00000010  6D 01 00 00 23 00 00 00  7E 05 00 00 33 00 00 00  |m...#...~...3...|
+00000020  48 00 00 00 30 00 00 00  3F 00 00 00 32 00 00 00  |H...0...?...2...|
+00000030  39 00 00 00 3B 00 00 00  3C 00 00 00 38 00 00 00  |9...;...<...8...|
+00000040  36 00 00 00 35 00 00 00  2D 00 00 00 22 00 00 00  |6...5...-..."...|
+00000050  24 00 00 00 20 00 00 00  22 00 00 00 1F 00 00 00  |$... ...".......|
+00000060  1D 00 00 00 1B 00 00 00  1D 00 00 00 19 00 00 00  |................|
+00000070  13 00 00 00 84 01 00 00  1D 00 00 00 15 00 00 00  |................|
+00000080  2C 04 00 00 27 01 00 00  30 00 00 00 BF 01 00 00  |,...'...0.......|
+00000090  0E 00 00 00 0E 00 00 00  10 00 00 00 08 00 00 00  |................|
+000000A0  09 00 00 00 03 00 00 00  01 00 00 00 06 00 00 00  |................|
+000000B0  11 00 00 00 02 00 00 00  02 00 00 00 57 00 00 00  |............W...|
+000000C0  02 00 00 00 01 00 00 00  CB 00 00 00 01 00 00 00  |................|
+000000D0  7D 00 00 00 00 00 00 00  02 00 00 00 00 00 00 00  |}...............|
+000000E0  00 00 00 00 02 00 00 00  01 00 00 00 01 00 00 00  |................|
+000000F0  00 00 00 00 02 00 00 00  02 00 00 00 00 00 00 00  |................|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 1213548102 (0x48554646)
+First 4 bytes (int32): 1213548102
+First 4 bytes (ASCII): "FFUH"
+Bytes 4-7 (uint32): 9121 (0x000023A1)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 218393.093750
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0034: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0000: "FFUH" (length: 4)
+Offset 0x0513: "syW}V" (length: 5)
+Offset 0x053F: "VWyw" (length: 4)
+Offset 0x05B4: "`Fn{" (length: 4)
+Offset 0x065E: "'u'uc" (length: 5)
+Offset 0x0825: "<?06b" (length: 5)
+Offset 0x09F3: "ROQ)RTJS<" (length: 9)
+Offset 0x0A0E: "Z4jQ" (length: 4)
+Offset 0x0A34: "a~*K!:" (length: 6)
+Offset 0x0A3B: "Oe)t" (length: 4)
+Offset 0x0AD1: "jHj$" (length: 4)
+Offset 0x0B5B: ")0z4gE" (length: 6)
+Offset 0x0C0A: "Bx8z" (length: 4)
+Offset 0x0C77: "~Z?6" (length: 4)
+Offset 0x0CE4: "'@rE" (length: 4)
+Offset 0x0DDB: "d#l5Jj4" (length: 7)
+Offset 0x0E16: ""i6%!S" (length: 6)
+Offset 0x0E37: "'i!d" (length: 4)
+Offset 0x0E3C: "}$"-E" (length: 5)
+Offset 0x10BB: "@z4@" (length: 4)
+Offset 0x11AD: "m3LU" (length: 4)
+Offset 0x1227: "5G"h" (length: 4)
+Offset 0x123D: "s/&l" (length: 4)
+Offset 0x12B4: "LM#o" (length: 4)
+Offset 0x1338: "!F+ps" (length: 5)
+Offset 0x13D5: "O_)./" (length: 5)
+Offset 0x1457: "fy\llX" (length: 6)
+Offset 0x148A: "b^y5k9" (length: 6)
+Offset 0x14D9: "5_!:" (length: 4)
+Offset 0x14E4: "Q[[S" (length: 4)
+Offset 0x1509: "*Zf`J)" (length: 6)
+Offset 0x1522: "cpQJ" (length: 4)
+Offset 0x15C6: "jWJ)" (length: 4)
+Offset 0x1624: "WJyW" (length: 4)
+Offset 0x1659: "_B)vQ" (length: 5)
+Offset 0x16A5: "GQx~" (length: 4)
+Offset 0x16C9: "3{6E")t" (length: 7)
+Offset 0x172B: "O5b.k" (length: 5)
+Offset 0x17A4: "!$]eff" (length: 6)
+Offset 0x1837: "6{(|" (length: 4)
+Offset 0x184A: "Z}@x" (length: 4)
+Offset 0x18C2: "loCAl" (length: 5)
+Offset 0x199F: "{~Qe" (length: 4)
+Offset 0x19AE: "g{ln" (length: 4)
+Offset 0x19F8: "ppPY" (length: 4)
+Offset 0x1A69: "DD=3333" (length: 7)
+Offset 0x1A71: "LDT(d" (length: 5)
+Offset 0x1A8A: "23c8dff" (length: 7)
+Offset 0x1A94: "QffffFT" (length: 7)
+Offset 0x1AA2: "Cffff" (length: 5)
+Offset 0x1AB5: "Wqfffff" (length: 7)
+Offset 0x1ADF: ":333333333S" (length: 11)
+Offset 0x1AF2: "?333333333" (length: 10)
+Offset 0x1B00: "jA=3S" (length: 5)
+Offset 0x1B36: "+33333333" (length: 9)
+
+=== END OF ANALYSIS ===

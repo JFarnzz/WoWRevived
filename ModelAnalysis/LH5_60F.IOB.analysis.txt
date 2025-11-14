@@ -1,0 +1,114 @@
+﻿=== IOB File Analysis: LH5_60F.IOB ===
+File Size: 7560 bytes (1D88h)
+
+=== HEADER (First 256 bytes) ===
+00000000  46 46 55 48 B2 26 00 00  78 19 00 00 9C CB 00 00  |FFUH.&..x.......|
+00000010  7C 01 00 00 20 00 00 00  5B 04 00 00 41 00 00 00  ||... ...[...A...|
+00000020  4E 00 00 00 35 00 00 00  44 00 00 00 3B 00 00 00  |N...5...D...;...|
+00000030  35 00 00 00 45 00 00 00  3C 00 00 00 35 00 00 00  |5...E...<...5...|
+00000040  3D 00 00 00 37 00 00 00  2F 00 00 00 29 00 00 00  |=...7.../...)...|
+00000050  26 00 00 00 26 00 00 00  24 00 00 00 22 00 00 00  |&...&...$..."...|
+00000060  20 00 00 00 24 00 00 00  1A 00 00 00 12 00 00 00  | ...$...........|
+00000070  15 00 00 00 57 01 00 00  1C 00 00 00 15 00 00 00  |....W...........|
+00000080  A0 02 00 00 84 00 00 00  2B 00 00 00 89 01 00 00  |........+.......|
+00000090  13 00 00 00 12 00 00 00  0A 00 00 00 0E 00 00 00  |................|
+000000A0  01 00 00 00 02 00 00 00  00 00 00 00 04 00 00 00  |................|
+000000B0  86 00 00 00 02 00 00 00  01 00 00 00 58 00 00 00  |............X...|
+000000C0  07 00 00 00 00 00 00 00  5F 03 00 00 00 00 00 00  |........_.......|
+000000D0  3F 01 00 00 00 00 00 00  02 00 00 00 00 00 00 00  |?...............|
+000000E0  00 00 00 00 00 00 00 00  01 00 00 00 01 00 00 00  |................|
+000000F0  01 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 1213548102 (0x48554646)
+First 4 bytes (int32): 1213548102
+First 4 bytes (ASCII): "FFUH"
+Bytes 4-7 (uint32): 9906 (0x000026B2)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 218393.093750
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0034: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0000: "FFUH" (length: 4)
+Offset 0x04A5: "9z!E" (length: 4)
+Offset 0x058D: ":M7\" (length: 4)
+Offset 0x05B8: "&Y|5z" (length: 5)
+Offset 0x05BF: "8W^k" (length: 4)
+Offset 0x0647: "@^<yU" (length: 5)
+Offset 0x0680: "M5}s" (length: 4)
+Offset 0x0685: "#Lk:L" (length: 5)
+Offset 0x068E: "Nf%I" (length: 4)
+Offset 0x06A6: "$IT/8wv" (length: 7)
+Offset 0x06C0: "O6we" (length: 4)
+Offset 0x0742: "Ue%-F" (length: 5)
+Offset 0x0790: "Wo\h" (length: 4)
+Offset 0x07B0: "j}U,]" (length: 5)
+Offset 0x085E: "'qDen" (length: 5)
+Offset 0x0983: "5sn;" (length: 4)
+Offset 0x09C0: "93^l" (length: 4)
+Offset 0x09ED: "*^V\" (length: 4)
+Offset 0x0A08: "H4I""" (length: 5)
+Offset 0x0A22: "uU/]" (length: 4)
+Offset 0x0A34: "U$Ui" (length: 4)
+Offset 0x0A8E: "2d7z" (length: 4)
+Offset 0x0BC2: "_Gu#" (length: 4)
+Offset 0x0C7E: "EJOJ" (length: 4)
+Offset 0x0CA3: "YII)R" (length: 5)
+Offset 0x0CDF: "S)RRV" (length: 5)
+Offset 0x0D4E: "~K=)" (length: 4)
+Offset 0x0DDF: "M xI" (length: 4)
+Offset 0x0E14: "N{'J" (length: 4)
+Offset 0x0E32: "HT0w" (length: 4)
+Offset 0x0EB1: "qSkc" (length: 4)
+Offset 0x0ED0: "NzQ3s" (length: 5)
+Offset 0x0F25: "n2_\" (length: 4)
+Offset 0x0F77: "ZI2k-" (length: 5)
+Offset 0x0FCF: "_\Ue[" (length: 5)
+Offset 0x0FF8: "*[Ho[" (length: 5)
+Offset 0x1013: "_TmWUU" (length: 6)
+Offset 0x108D: "MGp_" (length: 4)
+Offset 0x10CF: "BvV0" (length: 4)
+Offset 0x1104: "j6WR" (length: 4)
+Offset 0x1143: "!e^a4" (length: 5)
+Offset 0x116E: "Ho'_" (length: 4)
+Offset 0x121A: ".X<W" (length: 4)
+Offset 0x1275: "jh8U" (length: 4)
+Offset 0x128D: "DNRe" (length: 4)
+Offset 0x12B2: "g_R:" (length: 4)
+Offset 0x1384: "CX'1" (length: 4)
+Offset 0x1495: "m3OW" (length: 4)
+Offset 0x154C: "Ap6W" (length: 4)
+Offset 0x1590: "-0/lM{" (length: 6)
+Offset 0x1597: "d[!<" (length: 4)
+Offset 0x15BA: "_u{v" (length: 4)
+Offset 0x15E2: "T}6E" (length: 4)
+Offset 0x15FA: "Z<9%" (length: 4)
+Offset 0x179A: "yc'];" (length: 5)
+Offset 0x1856: "5|^-" (length: 4)
+Offset 0x1903: "3WAQ]" (length: 5)
+Offset 0x191A: "y]tO" (length: 4)
+Offset 0x199C: "]e['mN" (length: 6)
+Offset 0x1B3C: "1F`>#" (length: 5)
+Offset 0x1B8F: "{ff6^" (length: 5)
+Offset 0x1BD1: "_7l33" (length: 5)
+Offset 0x1CC1: "yffff" (length: 5)
+Offset 0x1D58: "=333" (length: 4)
+
+=== END OF ANALYSIS ===

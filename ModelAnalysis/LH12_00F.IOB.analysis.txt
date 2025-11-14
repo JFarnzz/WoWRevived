@@ -1,0 +1,152 @@
+﻿=== IOB File Analysis: LH12_00F.IOB ===
+File Size: 4964 bytes (1364h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 0E 00 00 00 0A 00  00 00 01 00 00 00 31 00  |..............1.|
+00000010  00 00 56 00 00 00 38 00  00 00 54 00 00 00 7E 00  |..V...8...T...~.|
+00000020  00 00 00 00 FD FF 02 00  FE FF 02 00 00 00 00 00  |................|
+00000030  02 00 02 00 FE FF FD FF  00 00 02 00 FD FF 00 00  |................|
+00000040  00 00 02 00 FE FF 02 00  02 00 00 00 00 00 FD FF  |................|
+00000050  FE FF 01 00 03 00 00 00  00 00 03 00 01 00 FF FF  |................|
+00000060  03 00 00 00 00 00 03 00  FF FF FF FF 03 00 01 00  |................|
+00000070  01 00 03 00 FF FF D8 00  88 59 00 A7 02 EF 83 59  |.........Y.....Y|
+00000080  00 A7 A7 00 A7 00 00 00  A8 E7 A8 00 00 00 D3 93  |................|
+00000090  D3 BC AF BC 11 84 11 11  84 11 F8 82 F8 05 82 05  |................|
+000000A0  30 07 01 00 00 00 00 00  0B 00 0A 00 0D 00 32 01  |0.............2.|
+000000B0  00 00 30 06 06 00 00 00  01 00 0A 00 0C 00 0D 00  |..0.............|
+000000C0  E9 01 00 00 B0 08 00 00  00 00 07 00 0C 00 08 00  |................|
+000000D0  0D 00 6E 02 00 00 30 0E  01 00 00 00 0F 00 08 00  |..n...0.........|
+000000E0  09 00 06 00 56 03 00 00  AF 39 38 00 01 00 1D 00  |....V....98.....|
+000000F0  06 00 00 00 04 00 C9 04  00 00 B0 09 08 00 00 00  |................|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 917507 (0x000E0003)
+First 4 bytes (int32): 917507
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 655360 (0x000A0000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0175: "000." (length: 4)
+Offset 0x019D: ".000" (length: 4)
+Offset 0x026C: "....." (length: 5)
+Offset 0x0278: "...++.....00" (length: 12)
+Offset 0x02A4: "...." (length: 4)
+Offset 0x0317: ".0++0" (length: 5)
+Offset 0x0369: "...." (length: 4)
+Offset 0x0433: "...." (length: 4)
+Offset 0x0515: ">>>>>??&" (length: 8)
+Offset 0x0520: "????>??%" (length: 8)
+Offset 0x052C: ">>>????%" (length: 8)
+Offset 0x0538: "???????$" (length: 8)
+Offset 0x0553: "PPPPPPP"" (length: 8)
+Offset 0x058C: "PPPP" (length: 4)
+Offset 0x059E: "TTTT" (length: 4)
+Offset 0x0742: "((''''''''''" (length: 12)
+Offset 0x074F: "'''''''''''''''((" (length: 17)
+Offset 0x0762: "('''('''''''''''''" (length: 18)
+Offset 0x0775: "''''''''''((" (length: 12)
+Offset 0x0782: " (''(((''''''''''''''''''''''''((" (length: 33)
+Offset 0x07A4: "!(((((((((''(''''''''''''''''''''(" (length: 34)
+Offset 0x07C7: "!((((((((((((('''''''''''''''''''(" (length: 34)
+Offset 0x07EA: ""..)))))).............)((((((((((((" (length: 35)
+Offset 0x080E: "#00000...(." (length: 11)
+Offset 0x0828: "((((((" (length: 6)
+Offset 0x0833: "$0000000..(." (length: 12)
+Offset 0x084F: "(((((" (length: 5)
+Offset 0x0859: "%.........((." (length: 13)
+Offset 0x0872: "(((((((((((((" (length: 13)
+Offset 0x0880: "&..........((." (length: 14)
+Offset 0x0899: "/(((((((((((((" (length: 14)
+Offset 0x08A8: "&...000000...." (length: 14)
+Offset 0x08C1: "/...........((" (length: 14)
+Offset 0x08D0: "'....0000000..0/" (length: 16)
+Offset 0x08E7: ".0//...0........(" (length: 17)
+Offset 0x08F9: "(.....0000000..0/" (length: 17)
+Offset 0x0911: "00....00((......(" (length: 17)
+Offset 0x0923: ")00.." (length: 5)
+Offset 0x094E: "*0000..." (length: 8)
+Offset 0x095C: "...." (length: 4)
+Offset 0x0963: ".00000." (length: 7)
+Offset 0x097A: "+00000............" (length: 18)
+Offset 0x0990: ".0000." (length: 6)
+Offset 0x0998: "/...." (length: 5)
+Offset 0x09A2: "...." (length: 4)
+Offset 0x09A7: "+000000.00000000..." (length: 19)
+Offset 0x09C5: "/..0000......." (length: 14)
+Offset 0x09D4: ",....0000..........0" (length: 20)
+Offset 0x09F3: "/............." (length: 14)
+Offset 0x0A02: "-...................." (length: 21)
+Offset 0x0A22: "/............." (length: 14)
+Offset 0x0A31: "......................" (length: 22)
+Offset 0x0A52: "/............." (length: 14)
+Offset 0x0A61: "/......................" (length: 23)
+Offset 0x0A83: "/............." (length: 14)
+Offset 0x0AD1: "....00" (length: 6)
+Offset 0x0AEC: ".++0." (length: 5)
+Offset 0x0B09: "..0.00+0" (length: 8)
+Offset 0x0C39: "QQPP" (length: 4)
+Offset 0x0C88: "PQTR" (length: 4)
+Offset 0x0CAB: ".00++0." (length: 7)
+Offset 0x0CEC: "...0+++0" (length: 8)
+Offset 0x0D12: ".00...0+" (length: 8)
+Offset 0x0D3D: ".000" (length: 4)
+Offset 0x0D5A: "0SSSSSSSSSSSSTSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS/" (length: 50)
+Offset 0x0E00: "PQTTQQQQQQQQQ" (length: 13)
+Offset 0x0E0F: "RQPPP" (length: 5)
+Offset 0x0E5E: "QQQQ" (length: 4)
+Offset 0x0E7B: ">>??" (length: 4)
+Offset 0x0E8D: "SSSSQ" (length: 5)
+Offset 0x0EA5: ">>>??" (length: 5)
+Offset 0x0EB7: "SSSSSQ" (length: 6)
+Offset 0x0EC9: "'>>>>>" (length: 6)
+Offset 0x0ED1: "???P" (length: 4)
+Offset 0x0EF2: "&???>?" (length: 6)
+Offset 0x0F08: "QQQQQRQQ" (length: 8)
+Offset 0x0F1A: "%>>>???????" (length: 11)
+Offset 0x0F28: "QRRS" (length: 4)
+Offset 0x0F41: "%?????" (length: 6)
+Offset 0x0F4F: "QRRS" (length: 4)
+Offset 0x0F76: "QRRT" (length: 4)
+Offset 0x0F88: "QSSRQ" (length: 5)
+Offset 0x0F90: "PPPPPPPPP" (length: 9)
+Offset 0x0FC9: "PPPPPP" (length: 6)
+Offset 0x0FFA: " ???" (length: 4)
+Offset 0x1029: "QPPPP" (length: 5)
+Offset 0x1050: "TTPPPPPPPP" (length: 10)
+Offset 0x1099: "QQQT" (length: 4)
+Offset 0x11C3: "..((" (length: 4)
+Offset 0x11FD: "((((((((((((((''(" (length: 17)
+Offset 0x1210: ")))(((((((((((''" (length: 16)
+Offset 0x1222: ")((((((((((('((" (length: 15)
+Offset 0x1233: "))))((((((((((" (length: 14)
+Offset 0x1243: "))))((((((((((" (length: 14)
+Offset 0x1256: "..0000000..0" (length: 12)
+Offset 0x1264: "..000000..." (length: 11)
+Offset 0x1277: "...0000.." (length: 9)
+Offset 0x1282: "...0000." (length: 8)
+Offset 0x128C: "...0000" (length: 7)
+Offset 0x1295: "...000" (length: 6)
+Offset 0x129D: "..000" (length: 5)
+Offset 0x12A4: ".000" (length: 4)
+Offset 0x12AA: "..00" (length: 4)
+
+=== END OF ANALYSIS ===

@@ -17,7 +17,7 @@ namespace WoWViewer
         private bool cancelOpenNewFile;
         private void InitializeHandlers()
         {
-            handlers = new Dictionary<string, Action<WowFileEntry>>
+            handlers = new Dictionary<string, Action<WowFileEntry>>(StringComparer.OrdinalIgnoreCase)
             {
                 //DAT/Dat.wow
                 { "DAT", HandleDAT }, // pseudo random dithering
@@ -373,14 +373,16 @@ namespace WoWViewer
             // debug test for non compressed files
             if (rawData.Length >= 4 && Encoding.ASCII.GetString(rawData, 0, 4) == "FFUH")
             {
-                int decompressedSize = BitConverter.ToInt32(rawData, 8); // Offset 0x08
-                byte[] huffmanTable = rawData.Skip(0x10).Take(0x400).ToArray(); // Offset 0x10–0x410
-                byte[] compressedPayload = rawData.Skip(0x410).ToArray(); // Offset 0x410 onward
-
-                var decoder = new FfuhDecoder(huffmanTable, compressedPayload);
-                byte[] decompressed = decoder.Decompress(decompressedSize);
-
-                fs.Write(decompressed, 0, decompressed.Length);
+                // TODO: Implement FFUH Huffman decompression
+                // int decompressedSize = BitConverter.ToInt32(rawData, 8);
+                // byte[] huffmanTable = rawData.Skip(0x10).Take(0x400).ToArray();
+                // byte[] compressedPayload = rawData.Skip(0x410).ToArray();
+                // var decoder = new FfuhDecoder(huffmanTable, compressedPayload);
+                // byte[] decompressed = decoder.Decompress(decompressedSize);
+                // fs.Write(decompressed, 0, decompressed.Length);
+                
+                MessageBox.Show("FFUH compressed audio detected. Decompression not yet implemented.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                fs.Write(rawData, 0, rawData.Length);
             }
             else
             {
@@ -418,7 +420,14 @@ namespace WoWViewer
                     button6.Enabled = true; // enable stop button
                     button10.Enabled = true; // enable replace file button
                 } // invoke extension handler for displaying different types
-                else if (magic == "KAT!") { handlers[listBox1.SelectedItem!.ToString()!.Split('.')[1]].Invoke(selected); }
+                else if (magic == "KAT!")
+                {
+                    string extension = listBox1.SelectedItem!.ToString()!.Split('.')[1];
+                    if (handlers.ContainsKey(extension))
+                    {
+                        handlers[extension].Invoke(selected);
+                    }
+                }
                 if (button4.Enabled) { button2.Enabled = true; } // enable extract button
                 lastSelectedListItem = selected.Name; // update last selected item
             }

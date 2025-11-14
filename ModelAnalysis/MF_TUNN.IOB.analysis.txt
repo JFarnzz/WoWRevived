@@ -1,0 +1,73 @@
+﻿=== IOB File Analysis: MF_TUNN.IOB ===
+File Size: 2263 bytes (8D7h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 0E 00 00 00 0D 00  00 00 01 00 00 00 43 00  |..............C.|
+00000010  00 00 27 00 00 00 16 00  00 00 54 00 00 00 7E 00  |..'.......T...~.|
+00000020  00 00 FF FD 45 FF DA FF  FF FD 45 FF C9 05 55 FF  |....E.....E...U.|
+00000030  45 FF DA FF 55 FF 45 FF  C9 05 AE FE 9A FF D4 FF  |E...U.E.........|
+00000040  AE FE 9A FF CD 05 BB FF  6A FE CD 05 99 FD 6A FE  |........j.....j.|
+00000050  CD 05 99 FD 6A FE D4 FF  BB FF 6A FE D4 FF D8 FD  |....j.....j.....|
+00000060  78 FD D4 FF 85 FF 78 FD  D4 FF 85 FF 78 FD CD 05  |x.....x.....x...|
+00000070  D8 FD 78 FD CD 05 27 B1  5A 37 8E 00 B9 BC 4F A5  |..x...'.Z7....O.|
+00000080  A8 00 FF 93 3F FF 82 00  82 F3 00 00 00 00 00 FE  |....?...........|
+00000090  7E BD F8 6B 00 00 7F 92  18 38 85 1B 00 00 00 00  |~..k.....8......|
+000000A0  07 0B 06 00 3A 00 1B 00  0A 00 09 00 0B 00 68 01  |....:.........h.|
+000000B0  00 00 88 0E 08 00 3A 00  13 00 08 00 09 00 0A 00  |......:.........|
+000000C0  90 01 00 00 08 0E 05 00  3A 00 13 00 08 00 02 00  |........:.......|
+000000D0  09 00 C3 01 00 00 05 09  03 00 3B 00 0F 00 00 00  |..........;.....|
+000000E0  04 00 02 00 FD 01 00 00  87 09 04 00 3B 00 0F 00  |............;...|
+000000F0  00 00 02 00 08 00 18 02  00 00 BB 14 0F 00 00 00  |................|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 917507 (0x000E0003)
+First 4 bytes (int32): 917507
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 851968 (0x000D0000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: -42369142365644193448808850046435983360.000000
+Offset 0x0028: -263176738289286669528026312995598499840.000000
+Offset 0x002C: -283155601350810089052408769718867984384.000000
+Offset 0x0034: -263183674873371118399311302955538317312.000000
+Offset 0x0038: -115657854757599185004580147183967272960.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0333: "PPPP" (length: 4)
+Offset 0x0343: "PPPPP" (length: 5)
+Offset 0x0381: "PPPP" (length: 4)
+Offset 0x03A3: "PPPPP" (length: 5)
+Offset 0x03E8: "PPPP" (length: 4)
+Offset 0x03FD: "PPPPP" (length: 5)
+Offset 0x0410: "PPPP" (length: 4)
+Offset 0x042A: "PPP2" (length: 4)
+Offset 0x0434: "PPP6" (length: 4)
+Offset 0x0454: "PPPQ" (length: 4)
+Offset 0x045E: "PPPPP" (length: 5)
+Offset 0x0477: "PPPPP" (length: 5)
+Offset 0x0483: "PPPPP" (length: 5)
+Offset 0x04A2: "PPPP " (length: 5)
+Offset 0x04B2: "PPPPP#" (length: 6)
+Offset 0x04D8: "PPP(" (length: 4)
+Offset 0x04EB: "PPPP*" (length: 5)
+Offset 0x056D: "TTT'" (length: 4)
+Offset 0x0572: "PPPQ" (length: 4)
+Offset 0x057F: "PPPP" (length: 4)
+Offset 0x0587: "PPPP/" (length: 5)
+Offset 0x059D: "PPPQ" (length: 4)
+Offset 0x05A7: "PPPQ" (length: 4)
+Offset 0x06E8: "PPPP" (length: 4)
+Offset 0x078F: "PPPP" (length: 4)
+Offset 0x08B6: "PQQQPP " (length: 7)
+
+=== END OF ANALYSIS ===

@@ -43,8 +43,16 @@ The road map for this project.
 	- Undo changes to current string.
 	- Edited strings highlighted.
 	- Rich text editing with newline support (\n to \r\n handling when loading and the opposite when saving )
-- ❌ 5 : Map Editor ( Basic Parsing Implemented - 1% Complete )
-	- Basic parsing of .nsb filetypes.
+- [🔄 5 : Map/Level Editor](#maplevel-editor) ( Fully Functional - 60% Complete )
+	- ✅ NSB map parsing with "BMOL" format support
+	- ✅ Interactive viewport with zoom, pan, grid overlay
+	- ✅ Object selection (single/multi-select with Ctrl)
+	- ✅ Place/Delete/Move editing modes
+	- ✅ Undo/Redo system (50 steps)
+	- ✅ Save with auto-backup (.bak)
+	- ✅ Previous/Next map navigation toolbar
+	- ❌ 3D model visualization (buildings/units)
+	- ❌ Terrain height editing
 - ❌ 6 : No-CD Music Fix ( Researching Solution - 0% Complete )
 	- Looking at building mini-isos from the disk and mounting at runtime.
 - ❌ 7 : Video Playback Intercept ( Researching Solution - 0% Complete )
@@ -52,7 +60,15 @@ The road map for this project.
 	- Determining the best solution for upscaling and remastering the original videos.
 - ❌ 8 : Decomp/Recomp ( Started - 1% Complete )
 	- Begun mapping out virtual key addresses for use in the launchers custom keyboard shortcut settings. ( "WoWRevived\WoWDecomp\ida-map.txt" )
-- ❌ 9 : Remake ( Not Started - 0% Complete )
+- [🔄 9 : Godot 4.x Remaster](#godot-4x-remaster) ( Phase 1 Started - 5% Complete )
+	- ✅ **494 3D models extracted** (349 buildings + 145 units) from Dat.wow
+	- ✅ IOB/WOF binary format analysis complete (Huffman compressed)
+	- ✅ ModelAnalysisTool CLI for extraction and batch analysis
+	- ❌ Huffman decompression algorithm (reverse engineering WoW.exe)
+	- ❌ IOB → GLTF converter
+	- ❌ Godot 4.3 project setup
+	- See `REMASTER_PLAN.md` for full 7-phase roadmap
+	- See `IOB_WOF_FORMAT_ANALYSIS.md` for 3D format research
 
 This might not all happen but we wanted to create a more accessible guide for running the game on modern systems, while the information exists much of it is scattered across the internet.
 

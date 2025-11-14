@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>ModelAnalysisTool</AssemblyName>
+    <RootNamespace>WoWViewer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference the parsers from WoWViewer -->
+    <Compile Include="..\WoWViewer\Parsers\IobParser.cs" Link="Parsers\IobParser.cs" />
+    <Compile Include="..\WoWViewer\Parsers\WofParser.cs" Link="Parsers\WofParser.cs" />
+    <Compile Include="..\WoWViewer\Parsers\HuffmanDecoder.cs" Link="Parsers\HuffmanDecoder.cs" />
+    <Compile Include="..\WoWViewer\Parsers\GeometryParser.cs" Link="Parsers\GeometryParser.cs" />
+    <Compile Include="..\WoWViewer\Class1.cs" Link="Class1.cs" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,51 @@
+﻿=== IOB File Analysis: HX_POD31.IOB ===
+File Size: 1719 bytes (6B7h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 19 00 00 00 1F 00  00 00 01 00 00 00 2F 00  |............../.|
+00000010  00 00 17 00 00 00 25 00  00 00 96 00 00 00 E1 00  |......%.........|
+00000020  00 00 2E 00 D9 FF 6A 00  1A 00 E2 FF 65 00 13 00  |......j.....e...|
+00000030  EE FF 7D 00 2D 00 E3 FF  7D 00 19 00 D8 FF 6A 00  |..}.-...}.....j.|
+00000040  15 00 E2 FF 7D 00 18 00  D8 FF 90 00 19 00 E2 FF  |....}...........|
+00000050  95 00 25 00 D9 FF 90 00  5B 00 8E FF B3 00 40 00  |..%.....[.....@.|
+00000060  BD FF 99 00 2F 00 BF FF  A2 00 3E 00 8E FF C4 00  |..../.....>.....|
+00000070  2B 00 BF FF 99 00 37 00  8E FF B6 00 6D 00 8E FF  |+.....7.....m...|
+00000080  58 00 49 00 BD FF 60 00  4E 00 BD FF 7B 00 6E 00  |X.I...`.N...{.n.|
+00000090  8E FF 7B 00 2D 00 BF FF  60 00 2A 00 BF FF 7C 00  |..{.-...`.*...|.|
+000000A0  3E 00 8E FF 4E 00 35 00  8E FF 78 00 5C 00 8E FF  |>...N.5...x.\...|
+000000B0  4A 00 36 00 BF FF 57 00  C2 A1 36 4D D3 59 27 8A  |J.6...W...6M.Y'.|
+000000C0  18 C8 91 E9 6E 2D 2A 7B  1E 04 72 32 E8 6F EC C7  |....n-*{..r2.o..|
+000000D0  C8 AD B3 CE B3 AA CA B0  AF 51 F2 A0 03 B9 98 76  |.........Q.....v|
+000000E0  29 ED 79 09 DD 00 00 00  BE AD 44 AA A4 0D 00 00  |).y.......D.....|
+000000F0  00 70 23 2E 71 38 04 57  04 5B 7B 1C 07 EB D4 74  |.p#.q8.W.[{....t|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 1638403 (0x00190003)
+First 4 bytes (int32): 1638403
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 2031616 (0x001F0000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x00C4: "n-*{" (length: 4)
+Offset 0x00F1: "p#.q8" (length: 5)
+Offset 0x0659: "))))" (length: 4)
+
+=== END OF ANALYSIS ===

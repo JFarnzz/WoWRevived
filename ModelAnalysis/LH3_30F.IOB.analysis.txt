@@ -1,0 +1,102 @@
+﻿=== IOB File Analysis: LH3_30F.IOB ===
+File Size: 4882 bytes (1312h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 08 00 00 00 06 00  00 00 01 00 00 00 36 00  |..............6.|
+00000010  00 00 5C 00 00 00 36 00  00 00 30 00 00 00 48 00  |..\...6...0...H.|
+00000020  00 00 00 00 FD FF 01 00  FF FF 02 00 00 00 00 00  |................|
+00000030  02 00 01 00 FF FF FD FF  00 00 01 00 FD FF 00 00  |................|
+00000040  00 00 02 00 FF FF 01 00  02 00 00 00 00 00 FD FF  |................|
+00000050  FF FF D8 00 88 28 8F D8  24 CD 93 59 00 A7 A7 00  |.....(..$..Y....|
+00000060  A7 00 81 00 C1 A7 C1 00  00 00 36 16 0E 01 00 00  |..........6.....|
+00000070  00 00 05 00 01 00 06 00  B4 00 00 00 B6 16 08 00  |................|
+00000080  00 00 0E 00 01 00 02 00  06 00 F2 02 00 00 A6 46  |...............F|
+00000090  38 01 10 00 16 00 06 00  00 00 04 00 33 05 00 00  |8...........3...|
+000000A0  90 38 16 00 00 00 0E 00  01 00 03 00 02 00 04 0A  |.8..............|
+000000B0  00 00 10 38 22 01 00 00  24 00 02 00 03 00 00 00  |...8"...$.......|
+000000C0  1C 0C 00 00 26 46 0E 00  10 00 16 00 06 00 02 00  |....&F..........|
+000000D0  00 00 5A 0E 00 00 26 80  24 23 03 BF C1 B2 20 07  |..Z...&.$#.... .|
+000000E0  BE C1 C1 C1 B3 B3 B3 1D  0B C1 B2 B3 B3 B3 4F 4F  |..............OO|
+000000F0  50 50 4F B3 1B 0D C1 B2  B3 B3 4F 4F 4F 4F 4F 4F  |PPO.......OOOOOO|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 524291 (0x00080003)
+First 4 bytes (int32): 524291
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 393216 (0x00060000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x00EE: "OOPPO" (length: 5)
+Offset 0x00FA: "OOOOOOOO" (length: 8)
+Offset 0x013A: "PPPO" (length: 4)
+Offset 0x0158: "POOP" (length: 4)
+Offset 0x01B9: "POOP" (length: 4)
+Offset 0x01EA: "jjjj" (length: 4)
+Offset 0x0217: "jWWjjjjjjj" (length: 10)
+Offset 0x0247: "jjjj" (length: 4)
+Offset 0x0265: "PPOOP" (length: 5)
+Offset 0x028B: "$OPP" (length: 4)
+Offset 0x029F: "jjjj" (length: 4)
+Offset 0x02B7: "jjjj" (length: 4)
+Offset 0x0382: "jjjjj" (length: 5)
+Offset 0x0399: "jjWWj" (length: 5)
+Offset 0x03AD: "jjjj" (length: 4)
+Offset 0x03BD: "jjjjj" (length: 5)
+Offset 0x03E7: "jjjjjj" (length: 6)
+Offset 0x040A: "jjjjj" (length: 5)
+Offset 0x0418: "jjjWj" (length: 5)
+Offset 0x0423: "POOOOO" (length: 6)
+Offset 0x048B: "jjjj" (length: 4)
+Offset 0x04AF: "jWWj" (length: 4)
+Offset 0x05A2: "PPQQ" (length: 4)
+Offset 0x05B5: "QQQPQQT" (length: 7)
+Offset 0x05C2: "QSRQT" (length: 5)
+Offset 0x05CB: "TQQQQ" (length: 5)
+Offset 0x0682: "TPOT" (length: 4)
+Offset 0x0696: "TTTT" (length: 4)
+Offset 0x0782: "...." (length: 4)
+Offset 0x0865: "TTTTTT" (length: 6)
+Offset 0x0876: "TTTP" (length: 4)
+Offset 0x0882: "TTTTTTT" (length: 7)
+Offset 0x08A1: "TTTTT" (length: 5)
+Offset 0x08BF: "TTTTT" (length: 5)
+Offset 0x08CC: "TTTT" (length: 4)
+Offset 0x0927: "0000" (length: 4)
+Offset 0x0931: "TTTTT" (length: 5)
+Offset 0x0948: "0000" (length: 4)
+Offset 0x094D: "PTTTT" (length: 5)
+Offset 0x0966: ".0000" (length: 5)
+Offset 0x096D: "TTTTTTT" (length: 7)
+Offset 0x097C: "PPPP" (length: 4)
+Offset 0x0982: "P.0000" (length: 6)
+Offset 0x098A: "TTTTT" (length: 5)
+Offset 0x099D: "0000." (length: 5)
+Offset 0x09B4: "QP.0.0." (length: 7)
+Offset 0x09CC: ".0000" (length: 5)
+Offset 0x09E0: ".0000" (length: 5)
+Offset 0x09F2: "00000" (length: 5)
+Offset 0x0A02: "0000." (length: 5)
+Offset 0x11CF: "TTOO" (length: 4)
+Offset 0x11E2: "TTOO" (length: 4)
+Offset 0x12A2: "PPPP" (length: 4)
+
+=== END OF ANALYSIS ===

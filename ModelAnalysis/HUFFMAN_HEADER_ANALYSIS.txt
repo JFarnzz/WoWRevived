@@ -1,0 +1,119 @@
+=== FFUH Header Analysis Results ===
+Date: 11/13/2025 5:36:18 AM
+
+
+=== FARM.IOB ===
+File Size: 7160 bytes
+Magic: FFUH
+
+Header Values:
+  Offset 0x04: 00002212h (8722 dec)
+  Offset 0x08: 000017E8h (6120 dec)
+  Offset 0x0C: 0000BF1Ch (48924 dec)
+  Offset 0x10: 000003B1h (945 dec)
+
+First 16 uint32 values:
+    [00]: 0x00002212 (    8722 dec)
+    [04]: 0x000017E8 (    6120 dec)
+    [08]: 0x0000BF1C (   48924 dec)
+    [0C]: 0x000003B1 (     945 dec)
+    [10]: 0x0000006B (     107 dec)
+    [14]: 0x0000016F (     367 dec)
+    [18]: 0x0000009E (     158 dec)
+    [1C]: 0x0000009A (     154 dec)
+    [20]: 0x00000108 (     264 dec)
+    [24]: 0x00000052 (      82 dec)
+    [28]: 0x00000055 (      85 dec)
+    [2C]: 0x00000047 (      71 dec)
+    [30]: 0x0000003F (      63 dec)
+    [34]: 0x00000025 (      37 dec)
+    [38]: 0x00000031 (      49 dec)
+
+Hypothesis:
+
+=== CASTLE.IOB ===
+File Size: 7458 bytes
+Magic: FFUH
+
+Header Values:
+  Offset 0x04: 00002218h (8728 dec)
+  Offset 0x08: 00001912h (6418 dec)
+  Offset 0x0C: 0000C86Fh (51311 dec)
+  Offset 0x10: 00000443h (1091 dec)
+
+First 16 uint32 values:
+    [00]: 0x00002218 (    8728 dec)
+    [04]: 0x00001912 (    6418 dec)
+    [08]: 0x0000C86F (   51311 dec)
+    [0C]: 0x00000443 (    1091 dec)
+    [10]: 0x00000099 (     153 dec)
+    [14]: 0x0000011D (     285 dec)
+    [18]: 0x000000D6 (     214 dec)
+    [1C]: 0x00000080 (     128 dec)
+    [20]: 0x0000006B (     107 dec)
+    [24]: 0x00000068 (     104 dec)
+    [28]: 0x00000063 (      99 dec)
+    [2C]: 0x0000004F (      79 dec)
+    [30]: 0x0000005F (      95 dec)
+    [34]: 0x00000057 (      87 dec)
+    [38]: 0x00000041 (      65 dec)
+
+Hypothesis:
+
+=== AIRSHIP.WOF ===
+File Size: 19812 bytes
+Magic: FFUH
+
+Header Values:
+  Offset 0x04: 00007136h (28982 dec)
+  Offset 0x08: 00004954h (18772 dec)
+  Offset 0x0C: 00024A7Fh (150143 dec)
+  Offset 0x10: 000013B1h (5041 dec)
+
+First 16 uint32 values:
+    [00]: 0x00007136 (   28982 dec)
+    [04]: 0x00004954 (   18772 dec)
+    [08]: 0x00024A7F (  150143 dec)
+    [0C]: 0x000013B1 (    5041 dec)
+    [10]: 0x00000086 (     134 dec)
+    [14]: 0x00000043 (      67 dec)
+    [18]: 0x00000037 (      55 dec)
+    [1C]: 0x0000002A (      42 dec)
+    [20]: 0x0000002A (      42 dec)
+    [24]: 0x00000039 (      57 dec)
+    [28]: 0x00000022 (      34 dec)
+    [2C]: 0x00000031 (      49 dec)
+    [30]: 0x00000030 (      48 dec)
+    [34]: 0x00000014 (      20 dec)
+    [38]: 0x00000020 (      32 dec)
+
+Hypothesis:
+
+=== FIGHTING.WOF ===
+File Size: 49297 bytes
+Magic: FFUH
+
+Header Values:
+  Offset 0x04: 00010ECEh (69326 dec)
+  Offset 0x08: 0000BC81h (48257 dec)
+  Offset 0x0C: 0005E3E7h (386023 dec)
+  Offset 0x10: 00005041h (20545 dec)
+
+First 16 uint32 values:
+    [00]: 0x00010ECE (   69326 dec)
+    [04]: 0x0000BC81 (   48257 dec)
+    [08]: 0x0005E3E7 (  386023 dec)
+    [0C]: 0x00005041 (   20545 dec)
+    [10]: 0x000001ED (     493 dec)
+    [14]: 0x00000380 (     896 dec)
+    [18]: 0x00000190 (     400 dec)
+    [1C]: 0x000000FA (     250 dec)
+    [20]: 0x0000009B (     155 dec)
+    [24]: 0x00000294 (     660 dec)
+    [28]: 0x000000CE (     206 dec)
+    [2C]: 0x00000137 (     311 dec)
+    [30]: 0x00000056 (      86 dec)
+    [34]: 0x00000069 (     105 dec)
+    [38]: 0x0000006E (     110 dec)
+
+Hypothesis:

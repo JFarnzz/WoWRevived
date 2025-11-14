@@ -1,0 +1,82 @@
+﻿=== IOB File Analysis: TREE3.IOB ===
+File Size: 680 bytes (2A8h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 04 00 00 00 02 00  00 00 01 00 00 00 1C 00  |................|
+00000010  00 00 13 00 00 00 1D 00  00 00 18 00 00 00 24 00  |..............$.|
+00000020  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+00000030  00 00 00 00 00 00 00 00  00 00 96 CE D1 6A CE D1  |.............j..|
+00000040  00 A4 A9 00 A4 A9 13 1A  12 01 FB FF FC FF 03 00  |................|
+00000050  01 00 02 00 48 00 00 00  93 1A 12 01 0E 00 FC FF  |....H...........|
+00000060  03 00 02 00 00 00 70 01  00 00 13 80 00 11 82 00  |......p.........|
+00000070  10 83 00 0F 84 00 0E 05  00 00 57 57 57 0D 06 57  |..........WWW..W|
+00000080  00 00 57 57 75 0C 07 57  57 00 57 75 54 75 0B 08  |..WWu..WW.WuTu..|
+00000090  00 00 54 54 75 54 75 75  0A 09 00 00 00 58 58 6C  |..TTuTuu.....XXl|
+000000A0  57 75 75 09 0A 00 00 57  00 00 11 56 56 75 57 08  |Wuu....W...VVuW.|
+000000B0  0B 00 75 54 75 57 54 54  56 56 56 56 07 0C 54 75  |..uTuWTTVVVV..Tu|
+000000C0  75 75 57 75 75 75 75 54  56 56 06 0D 54 75 75 75  |uuWuuuuTVV..Tuuu|
+000000D0  75 75 75 57 75 57 54 54  54 05 0E 58 58 75 57 75  |uuuWuWTTT..XXuWu|
+000000E0  75 57 54 75 57 57 6C 58  58 04 0F 00 00 00 57 00  |uWTuWWlXX.....W.|
+000000F0  57 57 57 57 75 57 54 75  57 57 04 0F 00 00 00 00  |WWWWuWTuWW......|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 262147 (0x00040003)
+First 4 bytes (int32): 262147
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 131072 (0x00020000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0034: 0.000000
+Offset 0x0038: -1258291200.000000
+Offset 0x003C: -110819418112.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x008A: "WuTu" (length: 4)
+Offset 0x0092: "TTuTuu" (length: 6)
+Offset 0x009D: "XXlWuu" (length: 6)
+Offset 0x00AB: "VVuW" (length: 4)
+Offset 0x00B2: "uTuWTTVVVV" (length: 10)
+Offset 0x00BE: "TuuuWuuuuTVV" (length: 12)
+Offset 0x00CC: "TuuuuuuWuWTTT" (length: 13)
+Offset 0x00DB: "XXuWuuWTuWWlXX" (length: 14)
+Offset 0x00F0: "WWWWuWTuWW" (length: 10)
+Offset 0x0103: "WWWTuTWu" (length: 8)
+Offset 0x0115: "WTXXlWlW" (length: 8)
+Offset 0x0127: "uuuuuuWWW" (length: 9)
+Offset 0x013B: "uuuWuuuTTW" (length: 10)
+Offset 0x014E: "WWWT[WWWT" (length: 9)
+Offset 0x0163: "WXXuW" (length: 5)
+Offset 0x01A3: "WWTTu" (length: 5)
+Offset 0x01AA: "uWuu" (length: 4)
+Offset 0x01B2: "Wuuuu" (length: 5)
+Offset 0x01BB: "WTTTTTuT" (length: 8)
+Offset 0x01C5: "VVWVuuuuT" (length: 9)
+Offset 0x01D2: "VVVV[WTT" (length: 8)
+Offset 0x01DC: "VTTuTTW[llW" (length: 11)
+Offset 0x01E9: "VuuuuTWuT" (length: 9)
+Offset 0x01F7: "TWWuWuWWTTT" (length: 11)
+Offset 0x0206: "WWWuWWuWlXX" (length: 11)
+Offset 0x0216: "WWWVWWWWW" (length: 9)
+Offset 0x0227: "[TTWVWVWWW" (length: 10)
+Offset 0x023B: "TWTTVuVu" (length: 8)
+Offset 0x024C: "WWWuuuTuuu" (length: 10)
+Offset 0x0261: "TWW[WVWuuTTuT" (length: 13)
+Offset 0x0273: "lWWTWWWWWTTTTT" (length: 14)
+Offset 0x0288: "WWT[ll" (length: 6)
+
+=== END OF ANALYSIS ===

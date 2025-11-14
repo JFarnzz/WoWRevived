@@ -1,0 +1,58 @@
+﻿=== IOB File Analysis: CP_BUNK.IOB ===
+File Size: 5094 bytes (13E6h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 12 00 00 00 10 00  00 00 01 00 00 00 5A 00  |..............Z.|
+00000010  00 00 46 00 00 00 4A 00  00 00 6C 00 00 00 A2 00  |..F...J...l.....|
+00000020  00 00 F5 FD 40 01 D0 FE  28 02 40 01 D0 FE 28 02  |....@...(.@...(.|
+00000030  40 01 EF 01 F5 FD 40 01  EF 01 81 FC BA FE 9B 02  |@.....@.........|
+00000040  81 FC BA FE 25 FE 53 FD  BA FE 07 FD B7 02 BA FE  |....%.S.........|
+00000050  07 FD 88 03 BA FE 25 FE  88 03 BA FE 91 02 C0 02  |......%.........|
+00000060  BA FE B8 03 49 FD BA FE  B8 03 A1 00 BA FE 07 FD  |....I...........|
+00000070  72 FF BA FE FE FC 72 FF  CE FF E2 FD A1 00 CE FF  |r.....r.........|
+00000080  E2 FD 72 FF BA FE 10 FC  A1 00 BA FE 10 FC 1B 9B  |..r.............|
+00000090  47 F0 A3 54 00 81 00 57  A6 EF 66 BD E0 69 BE 15  |G..T...W..f..i..|
+000000A0  2F B5 5A D1 B6 5A A8 C0  40 00 00 00 00 00 00 58  |/.Z..Z..@......X|
+000000B0  BD C3 07 B5 65 33 BA 5C  1B A5 53 03 AE 60 59 B3  |....e3.\..S..`Y.|
+000000C0  2D 00 93 40 16 12 0D 01  0C 00 2F 00 0E 00 11 00  |-..@....../.....|
+000000D0  10 00 C2 01 00 00 8C 12  0D 00 16 00 2F 00 0E 00  |............/...|
+000000E0  10 00 0D 00 5E 02 00 00  96 13 06 01 0C 00 29 00  |....^.........).|
+000000F0  0F 00 11 00 0E 00 9B 02  00 00 17 20 17 00 1C 00  |........... ....|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 1179651 (0x00120003)
+First 4 bytes (int32): 1179651
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 1048576 (0x00100000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: -40707607370913048607679091221085552640.000000
+Offset 0x0024: -138242956747167835049263765829361598464.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0034: 0.000000
+Offset 0x0038: -5358764101531498599420342645798469632.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x060C: "TWWT" (length: 4)
+Offset 0x082F: "TWTW" (length: 4)
+Offset 0x09FF: "TTWT" (length: 4)
+Offset 0x0D6A: "PPPP" (length: 4)
+Offset 0x0D8B: "TTTTT" (length: 5)
+Offset 0x0DA7: "TTTT" (length: 4)
+Offset 0x12CA: "PPPP" (length: 4)
+Offset 0x133A: "TTTT" (length: 4)
+
+=== END OF ANALYSIS ===

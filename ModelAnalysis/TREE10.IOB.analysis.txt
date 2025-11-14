@@ -1,0 +1,82 @@
+﻿=== IOB File Analysis: TREE10.IOB ===
+File Size: 816 bytes (330h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 04 00 00 00 02 00  00 00 01 00 00 00 17 00  |................|
+00000010  00 00 21 00 00 00 22 00  00 00 18 00 00 00 24 00  |..!...".......$.|
+00000020  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+00000030  00 00 00 00 00 00 00 00  00 00 96 EE BE 6A EE BE  |.............j..|
+00000040  00 DE 86 00 DE 86 0E 2A  10 01 FD FF FB FF 03 00  |.......*........|
+00000050  01 00 02 00 48 00 00 00  8E 2A 10 01 0B 00 FB FF  |....H....*......|
+00000060  03 00 02 00 00 00 AB 01  00 00 0E 80 00 0D 81 00  |................|
+00000070  0C 82 00 0B 83 00 0A 84  00 09 05 00 00 00 00 54  |...............T|
+00000080  08 06 00 00 00 00 00 54  07 87 00 07 87 00 06 08  |.......T........|
+00000090  00 00 54 54 54 00 5B 5B  05 09 54 54 54 54 54 54  |..TTT.[[..TTTTTT|
+000000A0  00 5B 56 04 0A 54 59 54  58 54 54 54 5B 5B 54 03  |.[V..TYTXTTT[[T.|
+000000B0  0B 59 54 54 54 56 59 11  58 56 5B 59 02 0C 00 00  |.YTTTVY.XV[Y....|
+000000C0  59 11 58 11 11 54 54 54  11 11 01 0D 00 00 00 00  |Y.X..TTT........|
+000000D0  00 00 54 54 54 11 58 54  54 00 0E 00 00 00 00 00  |..TTT.XTT.......|
+000000E0  00 00 59 11 58 11 11 59  11 00 0E 00 00 00 00 00  |..Y.X..Y........|
+000000F0  00 00 00 00 54 54 11 56  56 00 0E 00 00 00 00 00  |....TT.VV.......|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 262147 (0x00040003)
+First 4 bytes (int32): 262147
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 131072 (0x00020000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0034: 0.000000
+Offset 0x0038: -23211375736600880154358579200.000000
+Offset 0x003C: -0.465658
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x009A: "TTTTTT" (length: 6)
+Offset 0x00A5: "TYTXTTT[[T" (length: 10)
+Offset 0x00B1: "YTTTVY" (length: 6)
+Offset 0x00B8: "XV[Y" (length: 4)
+Offset 0x0100: "TTTTTVV" (length: 7)
+Offset 0x010D: "TTTTTT" (length: 6)
+Offset 0x011C: "YTTTTTTT[[[" (length: 11)
+Offset 0x012F: "XXXVV[" (length: 6)
+Offset 0x013E: "[[[VV" (length: 5)
+Offset 0x014C: "[VVV" (length: 4)
+Offset 0x0160: "[[[[[" (length: 5)
+Offset 0x017B: "TV[V[" (length: 5)
+Offset 0x0183: "TTTTT[[[" (length: 8)
+Offset 0x018F: "YTX[V[" (length: 6)
+Offset 0x0198: "TTTVVV" (length: 6)
+Offset 0x01A3: "XVVV" (length: 4)
+Offset 0x01FD: "VVTTTT" (length: 6)
+Offset 0x0206: "VVYTTT" (length: 6)
+Offset 0x020F: "TTVTY" (length: 5)
+Offset 0x021E: "TTTT" (length: 4)
+Offset 0x0226: "VTTTY" (length: 5)
+Offset 0x0233: "TTTTTV[[[[" (length: 10)
+Offset 0x0244: "XXV[[[[" (length: 7)
+Offset 0x0252: "[V[V[[[[[" (length: 9)
+Offset 0x0262: "[V[[V[[VTTT" (length: 11)
+Offset 0x0275: "[[[VYT" (length: 6)
+Offset 0x0282: "VTV[[" (length: 5)
+Offset 0x028E: "TTT[[[[" (length: 7)
+Offset 0x0298: "VTTYTXVV" (length: 8)
+Offset 0x02A8: "TTTTT" (length: 5)
+Offset 0x02B1: "TTTTTT" (length: 6)
+Offset 0x02BE: "TYTTTV[[" (length: 8)
+
+=== END OF ANALYSIS ===

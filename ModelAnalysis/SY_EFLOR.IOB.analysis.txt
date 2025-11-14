@@ -1,0 +1,116 @@
+﻿=== IOB File Analysis: SY_EFLOR.IOB ===
+File Size: 1849 bytes (739h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 08 00 00 00 06 00  00 00 01 00 00 00 47 00  |..............G.|
+00000010  00 00 27 00 00 00 1E 00  00 00 30 00 00 00 48 00  |..'.......0...H.|
+00000020  00 00 5C FA 6B FD DF 03  5C FA F2 FD CA FF 5C FA  |..\.k...\.....\.|
+00000030  F2 FD DF 03 5C FA 6B FD  CA FF 55 FC 6B FD DF 03  |....\.k...U.k...|
+00000040  55 FC F2 FD CA FF 55 FC  F2 FD DF 03 55 FC 6B FD  |U.....U.....U.k.|
+00000050  CA FF 00 00 81 00 81 00  00 8F C8 00 00 00 A7 00  |................|
+00000060  A7 C8 8F 00 AC D6 AC 81  00 00 46 13 0D 00 00 00  |..........F.....|
+00000070  00 00 01 00 02 00 05 00  B4 00 00 00 BD 0D 06 00  |................|
+00000080  09 00 13 00 05 00 06 00  07 00 B4 02 00 00 C6 13  |................|
+00000090  06 00 00 00 0D 00 02 00  06 00 05 00 7C 03 00 00  |............|...|
+000000A0  3D 0D 07 00 09 00 19 00  07 00 06 00 04 00 C8 05  |=...............|
+000000B0  00 00 89 13 0D 01 00 00  13 00 00 00 04 00 06 00  |................|
+000000C0  91 06 00 00 09 13 06 00  00 00 0D 00 02 00 00 00  |................|
+000000D0  06 00 D6 06 00 00 3D 80  74 38 05 75 73 73 73 73  |......=.t8.ussss|
+000000E0  33 0A 74 73 73 73 73 73  73 73 73 73 2E 10 75 73  |3.tsssssssss..us|
+000000F0  73 73 73 73 73 73 73 73  73 73 73 73 73 73 2A 94  |ssssssssssssss*.|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 524291 (0x00080003)
+First 4 bytes (int32): 524291
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 393216 (0x00060000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: -285576327219415519569177298107105280.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: -40371639397033360512941616977158340608.000000
+Offset 0x002C: -286873331853855283907752409346080768.000000
+Offset 0x0030: 0.000000
+Offset 0x0034: -19604282450360779562075392899706519552.000000
+Offset 0x0038: -4444588997622709368925184652319129600.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x00DB: "ussss3" (length: 6)
+Offset 0x00E2: "tsssssssss." (length: 11)
+Offset 0x00EE: "usssssssssssssss*" (length: 17)
+Offset 0x0106: "tssssssssssssssssssssssssssssss" (length: 31)
+Offset 0x0126: "$sssssssssssssssss" (length: 18)
+Offset 0x013A: "DErssssssssssr" (length: 14)
+Offset 0x014C: ")ssssssssssssssssssrr" (length: 21)
+Offset 0x0166: "rsssssrrrrrrrrrs" (length: 16)
+Offset 0x0177: "/ssssssssssssssssrr" (length: 19)
+Offset 0x018E: "rrrsssssss" (length: 10)
+Offset 0x019D: "rrssssssss" (length: 10)
+Offset 0x01A8: "3sssssssssssssssssss" (length: 20)
+Offset 0x01C0: "rssssssssssssr" (length: 14)
+Offset 0x01CF: "rssssssssssss" (length: 13)
+Offset 0x01E0: ">ssssssssssssssssssssssssssssssssssssssssssssssssrrrrrrsssssssr" (length: 63)
+Offset 0x0220: "Cssssssssssssssssssssssssssssssssssssssssssssssssssssrrrrrrrrrrsssss" (length: 68)
+Offset 0x0265: "8sssssssssssssssssssssssssssssssssssssssssr" (length: 43)
+Offset 0x0295: "rssssssss" (length: 9)
+Offset 0x029F: "-ssssssssssssssssssssssssssssss" (length: 31)
+Offset 0x02C0: "rssssssssssss"" (length: 14)
+Offset 0x02E1: "ssssssssssss" (length: 12)
+Offset 0x02F2: "sssssssssss" (length: 11)
+Offset 0x0302: "@@@%" (length: 4)
+Offset 0x0307: "sssssssssrr" (length: 11)
+Offset 0x0317: "@@@@@@@@ " (length: 9)
+Offset 0x0321: "rrrrsrsssssr" (length: 12)
+Offset 0x0331: "@@@@@@@@" (length: 8)
+Offset 0x0343: "rrrrrrrr" (length: 8)
+Offset 0x034F: "@@@@@@@@" (length: 8)
+Offset 0x0361: "rrrr" (length: 4)
+Offset 0x036A: "@@@@" (length: 4)
+Offset 0x0375: "rrrsrr" (length: 6)
+Offset 0x0382: "sEEE" (length: 4)
+Offset 0x0388: "rsss" (length: 4)
+Offset 0x0390: "sssr" (length: 4)
+Offset 0x039A: "sssr" (length: 4)
+Offset 0x03A6: "rssssssssssssssssssssss" (length: 23)
+Offset 0x03C1: "-rssssssssssssssssssssssssssssssssrrssssssssss" (length: 46)
+Offset 0x03F0: "8ssssssssssssssssssssssssssrrsssrrrssssssssssssssssssssss" (length: 57)
+Offset 0x042A: "Drsssssssssssssssssssssrrrrrsssssssssssssssssssssssssssssssssssssssss" (length: 69)
+Offset 0x0470: ">sssssssssssssssssr" (length: 19)
+Offset 0x0486: "rrsssssssssrrsssssssssssssr" (length: 27)
+Offset 0x04A5: "ssssssssss" (length: 10)
+Offset 0x04B0: "9ssssssssssssssssssrrrrrrssssssssr" (length: 34)
+Offset 0x04D3: "rssssssssrrr" (length: 12)
+Offset 0x04E3: "rssssss" (length: 7)
+Offset 0x04EB: "3sssssssssssssssssrrrrrssrrssssssrssr" (length: 37)
+Offset 0x0515: "rrrrssssss" (length: 10)
+Offset 0x0520: "/ssssssssssssssssss" (length: 19)
+Offset 0x0537: "rrrrssssssss" (length: 12)
+Offset 0x0547: "rssssssss" (length: 9)
+Offset 0x0551: ")sssssssssssssssss" (length: 18)
+Offset 0x0567: "rrssssssssssssssssss" (length: 20)
+Offset 0x057C: "$sssssssssssssssssrrrrrrrsssssssssssr" (length: 37)
+Offset 0x05A3: "sssssssssssssssssrrrrsssssssssr" (length: 31)
+Offset 0x05C4: "sssssssssssssssssrrsssssss" (length: 26)
+Offset 0x05FC: "@@@@@@@" (length: 7)
+Offset 0x060D: "@@@@@@@@" (length: 8)
+Offset 0x0623: "@@@@@@@@" (length: 8)
+Offset 0x0632: "rrrrr" (length: 5)
+Offset 0x063D: "@@@@@@@@" (length: 8)
+Offset 0x064C: "sssrrrrrrr" (length: 10)
+Offset 0x065B: "@@@@@@@" (length: 7)
+Offset 0x0674: "@@@@@@@" (length: 7)
+Offset 0x0688: "@@@@@@@@" (length: 8)
+Offset 0x0697: "@@@@@@@@" (length: 8)
+
+=== END OF ANALYSIS ===

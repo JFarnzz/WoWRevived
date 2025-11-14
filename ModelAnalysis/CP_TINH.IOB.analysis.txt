@@ -1,0 +1,73 @@
+﻿=== IOB File Analysis: CP_TINH.IOB ===
+File Size: 1592 bytes (638h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 10 00 00 00 0A 00  00 00 00 00 00 00 26 00  |..............&.|
+00000010  00 00 25 00 00 00 21 00  00 00 60 00 00 00 7E 00  |..%...!...`...~.|
+00000020  00 00 18 F4 3A F7 3B 07  18 F4 4D 04 F2 F8 18 F4  |....:.;...M.....|
+00000030  98 07 3B 07 18 F4 3A F7  F2 F8 A6 0B 3A F7 3B 07  |..;...:.....:.;.|
+00000040  A6 0B 4D 04 F2 F8 A6 0B  98 07 3B 07 A6 0B 3A F7  |..M.......;...:.|
+00000050  F2 F8 66 F3 C3 07 D6 07  66 F3 35 05 2A F8 66 F3  |..f.....f.5.*.f.|
+00000060  C6 08 9A 07 66 F3 32 04  66 F8 9A 0C C3 07 D6 07  |....f.2.f.......|
+00000070  9A 0C 35 05 2A F8 9A 0C  C6 08 9A 07 9A 0C 32 04  |..5.*.........2.|
+00000080  66 F8 00 1C 7B 00 1C 7B  00 00 7F 00 00 7F 00 85  |f...{..{........|
+00000090  1C 7F 00 00 7F 00 00 00  85 1C 7F 00 00 7F 00 00  |................|
+000000A0  1D 07 01 00 01 00 11 00  0D 00 0F 00 09 00 32 01  |..............2.|
+000000B0  00 00 9E 07 06 00 01 00  12 00 0F 00 0B 00 09 00  |................|
+000000C0  4F 01 00 00 9C 0B 07 00  02 00 11 00 05 00 07 00  |O...............|
+000000D0  01 00 6B 01 00 00 1C 0C  04 00 02 00 18 00 01 00  |..k.............|
+000000E0  07 00 03 00 1C 02 00 00  24 10 09 00 01 00 08 00  |........$.......|
+000000F0  0A 00 0D 00 09 00 DF 02  00 00 07 11 10 00 1E 00  |................|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 1048579 (0x00100003)
+First 4 bytes (int32): 1048579
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 655360 (0x000A0000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: -48170722808672717256874721804288.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: -48478902178608878526090820190208.000000
+Offset 0x0030: 0.000000
+Offset 0x0034: -3791867285572926909508662857826304.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x01F2: "PPPP" (length: 4)
+Offset 0x0210: "QQQPPPPPP" (length: 9)
+Offset 0x022C: "QQPQPP" (length: 6)
+Offset 0x0237: "TTTTT" (length: 5)
+Offset 0x025E: "QPPPPP" (length: 6)
+Offset 0x0273: "TTTTTTTTT" (length: 9)
+Offset 0x027D: "QQQPPP" (length: 6)
+Offset 0x0291: "TTTTTTT" (length: 7)
+Offset 0x02AC: "TTTTTTTTQP" (length: 10)
+Offset 0x02B7: "QQQP" (length: 4)
+Offset 0x02C3: "TTTTT" (length: 5)
+Offset 0x02DF: "TQPQ" (length: 4)
+Offset 0x02F6: "QPPTT" (length: 5)
+Offset 0x02FE: "PTT$" (length: 4)
+Offset 0x0324: "TTTTT" (length: 5)
+Offset 0x034B: "PPPP" (length: 4)
+Offset 0x0369: "PPPPPPQQQ" (length: 9)
+Offset 0x0410: ".000.." (length: 6)
+Offset 0x041A: ".000" (length: 4)
+Offset 0x0458: "..QT" (length: 4)
+Offset 0x054E: "TTTT" (length: 4)
+Offset 0x0579: "PPQPPP" (length: 6)
+Offset 0x0582: "QTPPQ" (length: 5)
+
+=== END OF ANALYSIS ===

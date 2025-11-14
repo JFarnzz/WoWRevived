@@ -1,0 +1,120 @@
+﻿=== IOB File Analysis: LH8_30F.IOB ===
+File Size: 5742 bytes (166Eh)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 08 00 00 00 06 00  00 00 01 00 00 00 3D 00  |..............=.|
+00000010  00 00 65 00 00 00 3C 00  00 00 30 00 00 00 48 00  |..e...<...0...H.|
+00000020  00 00 00 00 FD FF 02 00  FE FF 02 00 00 00 00 00  |................|
+00000030  02 00 02 00 FE FF FD FF  00 00 02 00 FD FF 00 00  |................|
+00000040  00 00 02 00 FE FF 02 00  02 00 00 00 00 00 FD FF  |................|
+00000050  FE FF D8 00 88 3F A7 C1  1D AC A7 59 00 A7 A7 00  |.....?.....Y....|
+00000060  A7 00 81 00 B0 C8 B0 00  00 00 2B 27 13 01 00 00  |..........+'....|
+00000070  00 00 05 00 01 00 02 00  B4 00 00 00 AB 27 15 00  |.............'..|
+00000080  11 00 00 00 05 00 02 00  06 00 57 03 00 00 AB 4F  |..........W....O|
+00000090  3C 00 11 00 15 00 06 00  00 00 04 00 FD 05 00 00  |<...............|
+000000A0  91 3C 14 00 00 00 13 00  01 00 03 00 02 00 C3 0B  |.<..............|
+000000B0  00 00 2B 4F 12 00 11 00  15 00 06 00 02 00 00 00  |..+O............|
+000000C0  20 0E 00 00 11 3D 28 00  00 00 27 00 02 00 03 00  | ....=(...'.....|
+000000D0  00 00 C1 13 00 00 2B 80  BE 28 82 BE 26 03 00 BE  |......+..(..&...|
+000000E0  BE 24 05 C1 C1 B2 B2 B3  21 07 23 BE C1 B2 B3 B3  |.$......!.#.....|
+000000F0  B3 1F 08 C1 B2 B3 B3 B3  4F 50 50 1D 0A BE B2 B3  |........OPP.....|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 524291 (0x00080003)
+First 4 bytes (int32): 524291
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 393216 (0x00060000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0100: "OOOO" (length: 4)
+Offset 0x017B: "OOOP" (length: 4)
+Offset 0x01FE: "POOO" (length: 4)
+Offset 0x0276: "jjjj" (length: 4)
+Offset 0x0290: "jWjjjjjjjjj" (length: 11)
+Offset 0x02A9: "jjjj" (length: 4)
+Offset 0x02AE: "jjjjjj" (length: 6)
+Offset 0x0307: "jjjj" (length: 4)
+Offset 0x0318: "jjjWj" (length: 5)
+Offset 0x0328: "jWWWj" (length: 5)
+Offset 0x038C: "OPPPO" (length: 5)
+Offset 0x041C: "jjjjjjjj" (length: 8)
+Offset 0x0435: "jjjjjj" (length: 6)
+Offset 0x04C0: "jjWj" (length: 4)
+Offset 0x04DE: "jjWWW" (length: 5)
+Offset 0x04FF: "jjjjjj" (length: 6)
+Offset 0x051A: "jjjj" (length: 4)
+Offset 0x051F: "jjjjj" (length: 5)
+Offset 0x053A: "jjjjjjjj" (length: 8)
+Offset 0x0548: "POOPPO" (length: 6)
+Offset 0x0556: "jjjj" (length: 4)
+Offset 0x0561: "POPP" (length: 4)
+Offset 0x0571: "jjjj" (length: 4)
+Offset 0x057A: "OOOO" (length: 4)
+Offset 0x05B7: "OOOO" (length: 4)
+Offset 0x05E7: "PPPO" (length: 4)
+Offset 0x0638: "(((.'" (length: 5)
+Offset 0x06C9: "(.....(" (length: 7)
+Offset 0x06D6: ".....(((((." (length: 11)
+Offset 0x06E5: "(((.(((" (length: 7)
+Offset 0x06FC: "((.." (length: 4)
+Offset 0x070C: "((.." (length: 4)
+Offset 0x0968: "QQ(.." (length: 5)
+Offset 0x0986: "RQQ(.." (length: 6)
+Offset 0x099E: "..(PQ" (length: 5)
+Offset 0x0A03: "QQQQQP" (length: 6)
+Offset 0x0A25: "QQQQQP" (length: 6)
+Offset 0x0A47: "PQQQP" (length: 5)
+Offset 0x0A5C: "QQQQQ" (length: 5)
+Offset 0x0A6A: "PQQP" (length: 4)
+Offset 0x0AA2: "QRRRPP" (length: 6)
+Offset 0x0ADD: "00000" (length: 5)
+Offset 0x0AE6: "RPQPP" (length: 5)
+Offset 0x0AFB: "00000" (length: 5)
+Offset 0x0B02: "RRQPQP" (length: 6)
+Offset 0x0B16: "000000" (length: 6)
+Offset 0x0B30: "000000" (length: 6)
+Offset 0x0B48: "0000000" (length: 7)
+Offset 0x0B60: "0000000" (length: 7)
+Offset 0x0B75: "0000000" (length: 7)
+Offset 0x0B89: "0000000(" (length: 8)
+Offset 0x0B9B: "000000." (length: 7)
+Offset 0x0E52: ".00.!" (length: 5)
+Offset 0x1016: "QTTS" (length: 4)
+Offset 0x1037: "STTT" (length: 4)
+Offset 0x1054: "TTSTT" (length: 5)
+Offset 0x1073: "TTTTT" (length: 5)
+Offset 0x10B0: "TTSSTTS" (length: 7)
+Offset 0x10CE: "TTST" (length: 4)
+Offset 0x1223: "QQPP" (length: 4)
+Offset 0x1316: "PPPQQ" (length: 5)
+Offset 0x133C: "TTTTT" (length: 5)
+Offset 0x1348: "TTTTT" (length: 5)
+Offset 0x1377: "TTTT" (length: 4)
+Offset 0x138C: "TTTT" (length: 4)
+Offset 0x1396: "TTTT" (length: 4)
+Offset 0x139F: "TTTT" (length: 4)
+Offset 0x13A8: "TTTT" (length: 4)
+Offset 0x149B: "TTPP" (length: 4)
+Offset 0x1608: "TQP((T" (length: 6)
+Offset 0x162E: "TPQT" (length: 4)
+
+=== END OF ANALYSIS ===

@@ -1,0 +1,45 @@
+﻿=== IOB File Analysis: HE_POD4.IOB ===
+File Size: 2590 bytes (A1Eh)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 44 00 00 00 40 00  00 00 01 00 00 00 16 00  |..D...@.........|
+00000010  00 00 16 00 00 00 1A 00  00 00 98 01 00 00 64 02  |..............d.|
+00000020  00 00 D8 FF F9 FF 1A 00  D8 FF EE FF 1A 00 E0 FF  |................|
+00000030  F8 FF 1A 00 E0 FF ED FF  1A 00 DD FF ED FF 18 00  |................|
+00000040  DD FF F8 FF 18 00 D8 FF  F8 FF 17 00 D8 FF ED FF  |................|
+00000050  17 00 D2 FF F8 FF 18 00  D2 FF ED FF 18 00 D0 FF  |................|
+00000060  ED FF 1A 00 D0 FF F8 FF  1A 00 D2 FF ED FF 1D 00  |................|
+00000070  D2 FF F8 FF 1D 00 D8 FF  ED FF 1E 00 D8 FF F8 FF  |................|
+00000080  1E 00 DD FF ED FF 1D 00  DD FF F8 FF 1D 00 E4 FF  |................|
+00000090  F6 FF 1A 00 E4 FF EB FF  1A 00 E1 FF F6 FF 16 00  |................|
+000000A0  E1 FF EB FF 16 00 D8 FF  EB FF 15 00 D8 FF F6 FF  |................|
+000000B0  15 00 CF FF EB FF 16 00  CF FF F6 FF 16 00 CB FF  |................|
+000000C0  EB FF 1A 00 CB FF F6 FF  1A 00 CF FF EB FF 1E 00  |................|
+000000D0  CF FF F6 FF 1E 00 D8 FF  F6 FF 20 00 D8 FF EB FF  |.......... .....|
+000000E0  20 00 E1 FF EB FF 1E 00  E1 FF F6 FF 1E 00 E4 FF  | ...............|
+000000F0  E8 FF 1A 00 E4 FF F3 FF  1A 00 E1 FF E8 FF 16 00  |................|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 4456451 (0x00440003)
+First 4 bytes (int32): 4456451
+First 4 bytes (ASCII): "??D?"
+Bytes 4-7 (uint32): 4194304 (0x00400000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+
+=== END OF ANALYSIS ===

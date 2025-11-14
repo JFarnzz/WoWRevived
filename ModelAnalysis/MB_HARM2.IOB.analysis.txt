@@ -1,0 +1,114 @@
+﻿=== IOB File Analysis: MB_HARM2.IOB ===
+File Size: 3225 bytes (C99h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 27 00 00 00 1C 00  00 00 01 00 00 00 51 00  |..'...........Q.|
+00000010  00 00 6D 00 00 00 1C 00  00 00 EA 00 00 00 5F 01  |..m..........._.|
+00000020  00 00 FF FF 05 00 07 00  FF FF 07 00 03 00 FF FF  |................|
+00000030  07 00 07 00 FF FF 05 00  03 00 01 00 05 00 07 00  |................|
+00000040  01 00 07 00 03 00 01 00  07 00 07 00 01 00 05 00  |................|
+00000050  03 00 02 00 F8 FF F8 FF  00 00 F8 FF F7 FF FE FF  |................|
+00000060  F8 FF F8 FF 00 00 F8 FF  FA FF 00 00 00 00 F8 FF  |................|
+00000070  00 00 07 00 03 00 01 00  06 00 03 00 FF FF 06 00  |................|
+00000080  03 00 00 00 06 00 00 00  00 00 03 00 09 00 00 00  |................|
+00000090  03 00 09 00 01 00 03 00  08 00 FF FF 03 00 08 00  |................|
+000000A0  FF FF 03 00 08 00 00 00  06 00 00 00 00 00 04 00  |................|
+000000B0  FA FF 00 00 06 00 00 00  00 00 04 00 FB FF 00 00  |................|
+000000C0  06 00 00 00 00 00 04 00  FB FF 00 00 00 00 F8 FF  |................|
+000000D0  00 00 00 00 F9 FF 00 00  00 00 F9 FF 02 00 07 00  |................|
+000000E0  06 00 02 00 07 00 03 00  02 00 05 00 03 00 02 00  |................|
+000000F0  05 00 06 00 FE FF 05 00  06 00 FE FF 05 00 03 00  |................|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 2555907 (0x00270003)
+First 4 bytes (int32): 2555907
+First 4 bytes (ASCII): "??'?"
+Bytes 4-7 (uint32): 1835008 (0x001C0000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0034: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x040F: "]]Z]" (length: 4)
+Offset 0x045F: " $&&%% " (length: 7)
+Offset 0x0483: "][ $" (length: 4)
+Offset 0x049E: " $& " (length: 4)
+Offset 0x04A8: ""&)))$"" (length: 7)
+Offset 0x0753: "VOQPN" (length: 5)
+Offset 0x075A: "JPOOQQ" (length: 6)
+Offset 0x0762: "MMJQQQQ" (length: 7)
+Offset 0x076B: "NOXLOQQQQ" (length: 9)
+Offset 0x0776: "QOINMNMMPQ" (length: 10)
+Offset 0x0783: "LJMOMLVVJNL" (length: 11)
+Offset 0x0793: "ZJLLIZZWW[" (length: 10)
+Offset 0x07A4: "]WIWZZ]" (length: 7)
+Offset 0x0814: "NVOQ" (length: 4)
+Offset 0x081A: "MIJP" (length: 4)
+Offset 0x0820: "ONVMM" (length: 5)
+Offset 0x0827: "PNNO" (length: 4)
+Offset 0x082D: "VIQO" (length: 4)
+Offset 0x086E: "PNOI]" (length: 5)
+Offset 0x0875: "OOQQQL" (length: 6)
+Offset 0x087D: "JQQQ" (length: 4)
+Offset 0x0883: "XLOQ" (length: 4)
+Offset 0x092E: "IVZ]]" (length: 5)
+Offset 0x093C: "LJV[" (length: 4)
+Offset 0x0945: "LLMIZ[" (length: 6)
+Offset 0x0950: "LMMIVIIXZ" (length: 9)
+Offset 0x095B: "ZJIIMNOOMIV" (length: 11)
+Offset 0x096B: "XNNONOQPNI" (length: 10)
+Offset 0x097A: "XIJNNLILMJL" (length: 11)
+Offset 0x0988: "][Z]]XVXINQ" (length: 11)
+Offset 0x0998: "]ZXX]JOO" (length: 8)
+Offset 0x09A5: "&]NMVJN" (length: 7)
+Offset 0x09B1: "VZIM]" (length: 5)
+Offset 0x09C1: "VJI]XL" (length: 6)
+Offset 0x09C9: "PVZJ" (length: 4)
+Offset 0x09F3: "WI]I" (length: 4)
+Offset 0x09F9: "VLMNM" (length: 5)
+Offset 0x0A16: "~"!)" (length: 4)
+Offset 0x0A4E: "MNMV" (length: 4)
+Offset 0x0A54: "MMMIZ" (length: 5)
+Offset 0x0A5B: "IJLLJ]" (length: 6)
+Offset 0x0A63: "IXXXXOO" (length: 7)
+Offset 0x0A6D: "ZXVMOQQ" (length: 7)
+Offset 0x0A77: " ZJIMMZ" (length: 7)
+Offset 0x0A96: "IIMMN" (length: 5)
+Offset 0x0A9D: "MNMLM" (length: 5)
+Offset 0x0AA4: "NNLJ" (length: 4)
+Offset 0x0AF8: "VVJN" (length: 4)
+Offset 0x0AFE: "IJJJL" (length: 5)
+Offset 0x0B05: "NMMMLL" (length: 6)
+Offset 0x0B0D: "ONMML" (length: 5)
+Offset 0x0B14: "NMLJ" (length: 4)
+Offset 0x0B36: "dVII" (length: 4)
+Offset 0x0B47: "Z[]I" (length: 4)
+Offset 0x0B59: "ZWX[" (length: 4)
+Offset 0x0B66: "]JLLLJV[" (length: 8)
+Offset 0x0B74: "ZLMNMMJV" (length: 8)
+Offset 0x0B83: "JMNNOMI[" (length: 8)
+Offset 0x0B8E: "V] XIJMNNMZ" (length: 11)
+Offset 0x0B9F: "[XILMV" (length: 6)
+Offset 0x0BAA: "[]ZXX" (length: 5)
+Offset 0x0BD0: "IIZZN" (length: 5)
+Offset 0x0C31: "ZWX[" (length: 4)
+Offset 0x0C3B: "]JLLLJ" (length: 6)
+Offset 0x0C8B: "] XIJ" (length: 5)
+Offset 0x0C92: "XOPOV" (length: 5)
+
+=== END OF ANALYSIS ===

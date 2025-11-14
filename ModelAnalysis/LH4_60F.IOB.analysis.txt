@@ -1,0 +1,105 @@
+﻿=== IOB File Analysis: LH4_60F.IOB ===
+File Size: 5955 bytes (1743h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 08 00 00 00 06 00  00 00 01 00 00 00 3B 00  |..............;.|
+00000010  00 00 70 00 00 00 41 00  00 00 30 00 00 00 48 00  |..p...A...0...H.|
+00000020  00 00 00 00 FD FF 02 00  FE FF 02 00 00 00 00 00  |................|
+00000030  02 00 02 00 FE FF FD FF  00 00 02 00 FD FF 00 00  |................|
+00000040  00 00 02 00 FE FF 02 00  02 00 00 00 00 00 FD FF  |................|
+00000050  FE FF D8 00 88 28 8F D8  24 CD 93 59 00 A7 A7 00  |.....(..$..Y....|
+00000060  A7 00 81 00 C1 A7 C1 00  00 00 BA 25 0E 01 00 00  |...........%....|
+00000070  00 00 05 00 01 00 06 00  B4 00 00 00 9F 62 3D 00  |.............b=.|
+00000080  1B 00 0E 00 06 00 00 00  04 00 CB 03 00 00 3A 24  |..............:$|
+00000090  17 00 00 00 0E 00 06 00  01 00 02 00 5F 08 00 00  |............_...|
+000000A0  9B 3D 0D 00 00 00 25 00  01 00 03 00 02 00 57 0B  |.=....%.......W.|
+000000B0  00 00 1F 62 24 00 1B 00  0E 00 06 00 02 00 00 00  |...b$...........|
+000000C0  EC 0E 00 00 1B 3E 30 00  00 00 32 00 02 00 03 00  |.....>0...2.....|
+000000D0  00 00 54 13 00 00 1F 80  24 1E 82 BE 1D 05 BE C1  |..T.....$.......|
+000000E0  B2 B1 B2 1C 08 BE C1 C1  B3 B3 B3 B3 B3 1B 0B 19  |................|
+000000F0  BE B2 B3 50 50 4F B3 4F  50 E2 1A 0E 23 BE C1 B3  |...PPO.OP...#...|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 524291 (0x00080003)
+First 4 bytes (int32): 524291
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 393216 (0x00060000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x0100: "OPOPP" (length: 5)
+Offset 0x0137: "OOOP" (length: 4)
+Offset 0x013D: "jjjjj" (length: 5)
+Offset 0x017B: "jjjj" (length: 4)
+Offset 0x01D1: "OOOP" (length: 4)
+Offset 0x01F7: "POPP" (length: 4)
+Offset 0x0275: "jjjjjj" (length: 6)
+Offset 0x02B7: "jjjjjjj" (length: 7)
+Offset 0x02F5: "jjWW" (length: 4)
+Offset 0x02FB: "jjjjjj" (length: 6)
+Offset 0x030C: "OOOP" (length: 4)
+Offset 0x036B: "OOPPP" (length: 5)
+Offset 0x0543: "TTQQP" (length: 5)
+Offset 0x07D5: "TTQP" (length: 4)
+Offset 0x07E5: "PQPT" (length: 4)
+Offset 0x0808: "TTTQPP" (length: 6)
+Offset 0x08B0: "PPOO(" (length: 5)
+Offset 0x08CC: "POOOO#" (length: 6)
+Offset 0x08D4: "jjjj" (length: 4)
+Offset 0x08DE: "OOOO " (length: 5)
+Offset 0x08E7: "jWWWj" (length: 5)
+Offset 0x08F0: "PPPPP" (length: 5)
+Offset 0x08FC: "jjjj" (length: 4)
+Offset 0x0914: "jjjj" (length: 4)
+Offset 0x092A: "jjjjj" (length: 5)
+Offset 0x093D: "jjjjj" (length: 5)
+Offset 0x0959: "jjjjj" (length: 5)
+Offset 0x095F: "jWjj" (length: 4)
+Offset 0x097A: "jjjjjj" (length: 6)
+Offset 0x099A: "jjjjjj" (length: 6)
+Offset 0x09E0: "PPPO" (length: 4)
+Offset 0x09FC: "OOOO" (length: 4)
+Offset 0x0A02: "POOOOO" (length: 6)
+Offset 0x0A18: "jjjjj" (length: 5)
+Offset 0x0A3E: "jjjjjj" (length: 6)
+Offset 0x0A62: "jjjjjj" (length: 6)
+Offset 0x0A87: "jjjjj" (length: 5)
+Offset 0x0AB0: "jjjjj" (length: 5)
+Offset 0x0AD0: "jjjjjjj" (length: 7)
+Offset 0x0AF0: "jjjj" (length: 4)
+Offset 0x0B0A: "jWWW" (length: 4)
+Offset 0x0B21: "jWWW" (length: 4)
+Offset 0x0B2A: "POOO" (length: 4)
+Offset 0x0BF5: "PQPP" (length: 4)
+Offset 0x0C22: "PPPTT" (length: 5)
+Offset 0x0DC1: "TTTTT" (length: 5)
+Offset 0x0EB7: "TTTT" (length: 4)
+Offset 0x15A8: "PTTT" (length: 4)
+Offset 0x15C4: "TTTTTWW" (length: 7)
+Offset 0x15DF: "TTTTTTT" (length: 7)
+Offset 0x15FA: "TTTTTTT" (length: 7)
+Offset 0x1616: "jTTTTTT" (length: 7)
+Offset 0x1632: "TTTTTTT" (length: 7)
+Offset 0x1649: "PPQPP" (length: 5)
+Offset 0x1651: "TTTjj" (length: 5)
+Offset 0x1700: "PPPP" (length: 4)
+
+=== END OF ANALYSIS ===

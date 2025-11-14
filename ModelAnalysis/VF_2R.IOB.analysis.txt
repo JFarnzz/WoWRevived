@@ -1,0 +1,66 @@
+﻿=== IOB File Analysis: VF_2R.IOB ===
+File Size: 5024 bytes (13A0h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 06 00 00 00 04 00  00 00 01 00 00 00 6A 00  |..............j.|
+00000010  00 00 56 00 00 00 3B 00  00 00 24 00 00 00 36 00  |..V...;...$...6.|
+00000020  00 00 FF FF 00 00 03 00  01 00 00 00 FD FF FF FF  |................|
+00000030  00 00 FD FF 01 00 00 00  03 00 01 00 02 00 03 00  |................|
+00000040  01 00 02 00 FD FF 38 8F  00 8F C8 00 38 8F 00 8F  |......8.....8...|
+00000050  C8 00 D8 88 00 D8 88 00  DE 3F 00 00 01 00 01 00  |.........?......|
+00000060  02 00 00 00 05 00 7E 00  00 00 B6 54 15 00 33 00  |......~....T..3.|
+00000070  01 00 05 00 03 00 01 00  F8 05 00 00 5E 3F 3F 00  |............^??.|
+00000080  01 00 01 00 05 00 00 00  04 00 0C 0A 00 00 36 54  |..............6T|
+00000090  3F 00 29 00 01 00 05 00  04 00 03 00 5E 0F 00 00  |?.).........^...|
+000000A0  36 28 1C BE 02 1C 1C BE  C1 C1 C1 C1 C1 1F C1 C1  |6(..............|
+000000B0  1F 1F 1F 1F 1F 1F 1D 1D  1E BE BE 1F BE 1D 1D BE  |................|
+000000C0  BE BE 1D 1D 1E 1E 1E 1D  02 1A 35 27 1C BE BE 1C  |..........5'....|
+000000D0  1C BE C1 C1 C1 C1 C1 1F  C1 C1 1F 1F 1F 1F 1F 1F  |................|
+000000E0  1D 1D 1E BE BE 1F BE 1D  1D BE BE BE 1D 1D 1E 1E  |................|
+000000F0  1E 1D 02 34 27 1C BE BE  1C 1C BE C1 C1 C1 C1 C1  |...4'...........|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 393219 (0x00060003)
+First 4 bytes (int32): 393219
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 262144 (0x00040000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x0034: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x024C: ",!((" (length: 4)
+Offset 0x026F: "+!((" (length: 4)
+Offset 0x0292: "* ((." (length: 5)
+Offset 0x063E: ">>3:" (length: 4)
+Offset 0x06DF: "PQPP" (length: 4)
+Offset 0x0754: "PO>::" (length: 5)
+Offset 0x0763: "TTTU" (length: 4)
+Offset 0x076C: ">:::" (length: 4)
+Offset 0x07A8: "TTTT" (length: 4)
+Offset 0x07D5: "=200" (length: 4)
+Offset 0x07E9: ">200" (length: 4)
+Offset 0x0810: ">920" (length: 4)
+Offset 0x0903: "PPVT" (length: 4)
+Offset 0x1031: "?@?=V" (length: 5)
+Offset 0x10BD: "?@>=" (length: 4)
+Offset 0x11D1: "?@?>" (length: 4)
+Offset 0x131F: ">1:O" (length: 4)
+Offset 0x134C: "?61>" (length: 4)
+Offset 0x138B: "?33>9" (length: 5)
+
+=== END OF ANALYSIS ===

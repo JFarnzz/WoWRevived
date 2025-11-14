@@ -1,0 +1,64 @@
+﻿=== IOB File Analysis: HX_POD12.IOB ===
+File Size: 2067 bytes (813h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 19 00 00 00 1B 00  00 00 01 00 00 00 29 00  |..............).|
+00000010  00 00 28 00 00 00 26 00  00 00 96 00 00 00 E1 00  |..(...&.........|
+00000020  00 00 D2 FF D9 FF 6A 00  DC FF D9 FF 90 00 E9 FF  |......j.........|
+00000030  D8 FF 90 00 E7 FF D8 FF  6A 00 A5 FF 8E FF B3 00  |........j.......|
+00000040  C9 FF 8E FF B6 00 93 FF  8E FF 58 00 C2 FF 8E FF  |..........X.....|
+00000050  4E 00 ED FF EE FF 7D 00  CA FF BF FF 57 00 E6 FF  |N.....}.....W...|
+00000060  E2 FF 65 00 D6 FF BF FF  7C 00 EB FF E2 FF 7D 00  |..e.....|.....}.|
+00000070  D2 FF BF FF A2 00 E8 FF  E2 FF 95 00 B2 FF BD FF  |................|
+00000080  7B 00 D4 FF E3 FF 7D 00  C0 FF BD FF 99 00 D5 FF  |{.....}.........|
+00000090  BF FF 99 00 C2 FF 8E FF  C4 00 B7 FF BD FF 60 00  |..............`.|
+000000A0  92 FF 8E FF 7B 00 D3 FF  BF FF 60 00 CB FF 8E FF  |....{.....`.....|
+000000B0  78 00 A5 FF 8E FF 4A 00  41 9A 23 47 B3 B9 8F 20  |x.....J.A.#G... |
+000000C0  D3 87 22 09 4D B1 C2 87  09 DD 64 B3 02 88 20 1A  |..".M.....d... .|
+000000D0  D9 8A 18 00 00 00 96 D2  32 88 28 00 84 16 01 C6  |........2.(.....|
+000000E0  DF 95 D4 BD 9E 5E AF E8  48 9F DA 4A B1 BF 88 20  |.....^..H..J... |
+000000F0  E9 FD B9 98 5D AB 08 64  B6 E7 87 1D 13 85 1C 07  |....]..d........|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 1638403 (0x00190003)
+First 4 bytes (int32): 1638403
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 1769472 (0x001B0000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x04B1: "**''" (length: 4)
+Offset 0x05BD: ")*''$"" (length: 6)
+Offset 0x05C6: ")*'$" (length: 4)
+Offset 0x05CC: "))*'$" (length: 5)
+Offset 0x05D4: ")*'#" (length: 4)
+Offset 0x05DA: "*'#!" (length: 4)
+Offset 0x06D9: "!!!"" (length: 4)
+Offset 0x06DF: "!!"#" (length: 4)
+Offset 0x06E5: "~!!"" (length: 4)
+Offset 0x073D: "!~~!!" (length: 5)
+Offset 0x0744: """  ~!" (length: 6)
+Offset 0x0754: "$##!" (length: 4)
+Offset 0x075E: "##"! " (length: 5)
+Offset 0x0767: "#"""!~" (length: 6)
+Offset 0x0772: "#"!!!~ " (length: 7)
+Offset 0x077C: "##"!!!!" (length: 7)
+Offset 0x0786: "#"!!~~~" (length: 7)
+Offset 0x078F: "!!!~~ " (length: 6)
+Offset 0x0797: "!~    " (length: 6)
+
+=== END OF ANALYSIS ===

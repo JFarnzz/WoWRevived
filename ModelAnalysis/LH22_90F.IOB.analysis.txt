@@ -1,0 +1,98 @@
+﻿=== IOB File Analysis: LH22_90F.IOB ===
+File Size: 2727 bytes (AA7h)
+
+=== HEADER (First 256 bytes) ===
+00000000  03 00 08 00 00 00 04 00  00 00 01 00 00 00 1D 00  |................|
+00000010  00 00 56 00 00 00 37 00  00 00 30 00 00 00 48 00  |..V...7...0...H.|
+00000020  00 00 00 00 FD FF 01 00  FF FF 01 00 00 00 00 00  |................|
+00000030  01 00 01 00 FF FF FD FF  00 00 01 00 FD FF 00 00  |................|
+00000040  00 00 01 00 FF FF 01 00  01 00 00 00 00 00 FD FF  |................|
+00000050  FF FF 59 00 A7 3F A7 C1  3F A7 C1 59 00 A7 00 00  |..Y..?..?..Y....|
+00000060  00 00 81 00 00 81 00 00  00 00 1C 23 23 00 00 00  |...........##...|
+00000070  01 00 05 00 01 00 02 00  90 00 00 00 9C 23 00 00  |.............#..|
+00000080  00 00 01 00 05 00 02 00  06 00 A6 02 00 00 9C 31  |...............1|
+00000090  00 00 00 00 24 00 01 00  03 00 02 00 F2 04 00 00  |....$...........|
+000000A0  1C 31 31 00 00 00 24 00  02 00 03 00 00 00 C4 07  |.11...$.........|
+000000B0  00 00 00 80 1E 00 80 1E  00 81 BE 00 02 1F B3 00  |................|
+000000C0  03 21 B3 4F 00 04 21 B3  B3 4F 00 04 21 B3 B3 50  |.!.O..!..O..!..P|
+000000D0  00 05 1F B3 4F E2 E2 00  06 21 B3 4F 50 E2 E2 00  |....O....!.OP...|
+000000E0  07 21 B3 B3 E2 E2 E2 E2  00 08 21 B3 B3 50 E2 E2  |.!........!..P..|
+000000F0  E2 E2 00 08 21 B3 B3 4F  4F 4F 50 E2 00 09 21 B3  |....!..OOOP...!.|
+
+=== PATTERN ANALYSIS ===
+First 4 bytes (uint32): 524291 (0x00080003)
+First 4 bytes (int32): 524291
+First 4 bytes (ASCII): "????"
+Bytes 4-7 (uint32): 262144 (0x00040000)
+
+=== POTENTIAL FLOAT VALUES (First 64 bytes) ===
+Offset 0x0000: 0.000000
+Offset 0x0004: 0.000000
+Offset 0x0008: 0.000000
+Offset 0x000C: 0.000000
+Offset 0x0010: 0.000000
+Offset 0x0014: 0.000000
+Offset 0x0018: 0.000000
+Offset 0x001C: 0.000000
+Offset 0x0020: 0.000000
+Offset 0x0024: 0.000000
+Offset 0x0028: 0.000000
+Offset 0x002C: 0.000000
+Offset 0x0030: 0.000000
+Offset 0x0038: 0.000000
+Offset 0x003C: 0.000000
+
+=== STRUCTURE DETECTION ===
+
+=== POTENTIAL STRINGS ===
+Offset 0x00F7: "OOOP" (length: 4)
+Offset 0x011A: "jjjjjj" (length: 6)
+Offset 0x0128: "jjjj" (length: 4)
+Offset 0x0136: "jjjjjj" (length: 6)
+Offset 0x0144: "jjjj" (length: 4)
+Offset 0x0154: "jjjj" (length: 4)
+Offset 0x0164: "jjWWj" (length: 5)
+Offset 0x0177: "jjjjjjj" (length: 7)
+Offset 0x0189: "jjjjjjj" (length: 7)
+Offset 0x01B3: "jjjj" (length: 4)
+Offset 0x0255: "jjjj" (length: 4)
+Offset 0x02EF: "jjjjj" (length: 5)
+Offset 0x030D: "jWjjj" (length: 5)
+Offset 0x032A: "jjjjjjjj" (length: 8)
+Offset 0x037E: "jjjj" (length: 4)
+Offset 0x0385: "OOPP" (length: 4)
+Offset 0x03B6: "OOOP" (length: 4)
+Offset 0x03C0: "POOP" (length: 4)
+Offset 0x0419: "jjjj" (length: 4)
+Offset 0x042B: "jjjj" (length: 4)
+Offset 0x0452: "jjjjjj" (length: 6)
+Offset 0x04A0: "jjjj" (length: 4)
+Offset 0x04BE: "OOOP" (length: 4)
+Offset 0x0516: "SQQPPQQQQQQQQQQQQQQQQQQQQQQT" (length: 28)
+Offset 0x0534: "QRRQQRRSSSTTTTTTTTTTTTTTTTT" (length: 27)
+Offset 0x0560: " !!!!!!!" (length: 8)
+Offset 0x0593: " !!!!!" (length: 6)
+Offset 0x05A7: ".........((((" (length: 13)
+Offset 0x05C2: ".0000000.00.........." (length: 21)
+Offset 0x05DC: "........" (length: 8)
+Offset 0x061A: "(((((" (length: 5)
+Offset 0x0632: "..(((" (length: 5)
+Offset 0x0678: "..((" (length: 4)
+Offset 0x068E: ".('((" (length: 5)
+Offset 0x0789: "??????????" (length: 10)
+Offset 0x07B1: "????????" (length: 8)
+Offset 0x07FD: "...(" (length: 4)
+Offset 0x083D: "?????" (length: 5)
+Offset 0x084A: "????" (length: 4)
+Offset 0x0892: "0(.." (length: 4)
+Offset 0x08A4: ".(!P" (length: 4)
+Offset 0x08AA: "????" (length: 4)
+Offset 0x08B9: "?????" (length: 5)
+Offset 0x08CB: "????" (length: 4)
+Offset 0x08DC: "????" (length: 4)
+Offset 0x08ED: "?????" (length: 5)
+Offset 0x09B9: "PQ(...((" (length: 8)
+Offset 0x0A73: "PPPPPP" (length: 6)
+Offset 0x0A7C: "TTP?" (length: 4)
+
+=== END OF ANALYSIS ===
